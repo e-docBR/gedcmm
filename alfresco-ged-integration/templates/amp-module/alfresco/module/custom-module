@@ -1,0 +1,10 @@
+module.custom-module.name=Custom Module
+module.custom-module.description=This is a custom module for integrating with Alfresco GED.
+module.custom-module.version=1.0.0
+module.custom-module.vendor=Your Company Name
+module.custom-module.license=Apache License 2.0
+module.custom-module.dependencies=alfresco, share
+module.custom-module.enabled=true
+module.custom-module.context=alfresco/module/custom-module
+module.custom-module.configuration=module-context.xml
+module.custom-module.properties=module.properties

@@ -1,0 +1,14 @@
+<search-form-config>
+    <form>
+        <field id="searchTerm" label="Search Term" type="text" required="true" />
+        <field id="documentType" label="Document Type" type="select" required="false">
+            <option value="all">All</option>
+            <option value="pdf">PDF</option>
+            <option value="docx">DOCX</option>
+            <option value="xlsx">XLSX</option>
+        </field>
+        <field id="dateRange" label="Date Range" type="date-range" required="false" />
+        <field id="owner" label="Owner" type="text" required="false" />
+        <button type="submit" label="Search" />
+    </form>
+</search-form-config>

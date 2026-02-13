@@ -1,0 +1,9 @@
+<workflow-model>
+    <process id="customWorkflow" name="Custom Workflow" isExecutable="true">
+        <startEvent id="startEvent" name="Start"/>
+        <sequenceFlow id="flow1" sourceRef="startEvent" targetRef="userTask"/>
+        <userTask id="userTask" name="User Task" activiti:assignee="${initiator}"/>
+        <sequenceFlow id="flow2" sourceRef="userTask" targetRef="endEvent"/>
+        <endEvent id="endEvent" name="End"/>
+    </process>
+</workflow-model>

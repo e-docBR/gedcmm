@@ -1,0 +1,40 @@
+<configuration>
+    <webscripts>
+        <webscript>
+            <shortname>custom-document</shortname>
+            <description>Custom Document Web Script</description>
+            <url>/custom/document</url>
+            <format html="true" json="true" />
+            <authentication>user</authentication>
+            <permissions>
+                <permission>Consumer</permission>
+            </permissions>
+            <content>
+                <type>application/json</type>
+                <template>service.get.json.ftl</template>
+            </content>
+        </webscript>
+    </webscripts>
+
+    <share>
+        <custom>
+            <document>
+                <title>Custom Document</title>
+                <description>This is a custom document type for Alfresco GED integration.</description>
+                <icon>custom-icon.png</icon>
+                <properties>
+                    <property>
+                        <name>customProperty1</name>
+                        <type>string</type>
+                        <mandatory>false</mandatory>
+                    </property>
+                    <property>
+                        <name>customProperty2</name>
+                        <type>date</type>
+                        <mandatory>true</mandatory>
+                    </property>
+                </properties>
+            </document>
+        </custom>
+    </share>
+</configuration>

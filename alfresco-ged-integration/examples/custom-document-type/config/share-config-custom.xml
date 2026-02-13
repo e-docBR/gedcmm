@@ -1,0 +1,24 @@
+<share-config-custom.xml>
+<config>
+    <custom-document-type>
+        <name>custom:documentType</name>
+        <title>Custom Document Type</title>
+        <description>This is a custom document type for Alfresco GED integration.</description>
+        <icon>custom-icon.png</icon>
+        <properties>
+            <property>
+                <name>custom:property1</name>
+                <type>text</type>
+                <mandatory>false</mandatory>
+                <defaultValue></defaultValue>
+            </property>
+            <property>
+                <name>custom:property2</name>
+                <type>date</type>
+                <mandatory>true</mandatory>
+                <defaultValue></defaultValue>
+            </property>
+        </properties>
+    </custom-document-type>
+</config>
+</share-config-custom.xml>

@@ -1,0 +1,27 @@
+<service>
+    <shortname>service</shortname>
+    <description>Web script to interact with the GED Alfresco Community Edition.</description>
+    <url>/alfresco/ged/service</url>
+    <format default="json">
+        <format>json</format>
+        <format>html</format>
+    </format>
+    <authentication>user</authentication>
+    <permissions>
+        <permission>Read</permission>
+    </permissions>
+    <required>
+        <parameter name="id" type="string" required="true" description="The ID of the document to retrieve."/>
+    </required>
+    <optional>
+        <parameter name="format" type="string" required="false" description="The format of the response (json or html)."/>
+    </optional>
+    <response>
+        <success>
+            <description>Returns the document details in the specified format.</description>
+        </success>
+        <error>
+            <description>Returns an error message if the document is not found or if there are permission issues.</description>
+        </error>
+    </response>
+</service>

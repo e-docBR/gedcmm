@@ -1,0 +1,5 @@
+<custom-action-context>
+    <bean id="customActionExecuter" class="com.example.CustomActionExecuter">
+        <property name="someProperty" value="someValue"/>
+    </bean>
+</custom-action-context>

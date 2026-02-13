@@ -1,0 +1,20 @@
+<contents of /alfresco-ged-integration/alfresco-ged-integration/templates/amp-module/module-context.xml>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+                           http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="customModule" class="org.alfresco.repo.module.Module">
+        <property name="name" value="custom-module"/>
+        <property name="description" value="Custom module for Alfresco GED integration."/>
+        <property name="version" value="1.0.0"/>
+        <property name="enabled" value="true"/>
+    </bean>
+
+    <bean id="customService" class="com.example.CustomService">
+        <property name="someDependency" ref="someOtherBean"/>
+    </bean>
+
+    <bean id="someOtherBean" class="com.example.SomeOtherBean"/>
+
+</beans>

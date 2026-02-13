@@ -1,0 +1,36 @@
+<content>
+<model xmlns="http://www.alfresco.org/model/content/1.0">
+    <name>customModel</name>
+    <description>Modelo de conteúdo personalizado para integração com o GED Alfresco Community Edition.</description>
+    <namespace uri="http://www.alfresco.org/model/custom/1.0" prefix="custom"/>
+    
+    <type name="custom:documentType">
+        <title>Custom Document Type</title>
+        <description>Tipo de documento personalizado para armazenar informações específicas.</description>
+        <properties>
+            <property name="custom:customProperty1">
+                <type>d:text</type>
+                <title>Custom Property 1</title>
+                <description>Uma propriedade personalizada para armazenar dados específicos.</description>
+            </property>
+            <property name="custom:customProperty2">
+                <type>d:text</type>
+                <title>Custom Property 2</title>
+                <description>Outra propriedade personalizada para armazenar dados adicionais.</description>
+            </property>
+        </properties>
+    </type>
+    
+    <aspect name="custom:customAspect">
+        <title>Custom Aspect</title>
+        <description>Aspecto personalizado para adicionar propriedades adicionais aos documentos.</description>
+        <properties>
+            <property name="custom:aspectProperty">
+                <type>d:text</type>
+                <title>Aspect Property</title>
+                <description>Uma propriedade que pode ser adicionada a qualquer documento que utilize este aspecto.</description>
+            </property>
+        </properties>
+    </aspect>
+</model>
+</content>

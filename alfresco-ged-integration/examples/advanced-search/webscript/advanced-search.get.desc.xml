@@ -1,0 +1,49 @@
+<advanced-search.get.desc.xml>
+<webscript>
+    <shortname>Advanced Search</shortname>
+    <description>This web script allows users to perform advanced searches on documents stored in Alfresco.</description>
+    <url>/alfresco/service/advanced-search</url>
+    <format default="json">
+        <mime>application/json</mime>
+    </format>
+    <authentication>user</authentication>
+    <family>Search</family>
+    <permissions>
+        <permission>Read</permission>
+    </permissions>
+    <required>
+        <parameter>
+            <name>query</name>
+            <description>The search query string.</description>
+            <required>true</required>
+        </parameter>
+        <parameter>
+            <name>type</name>
+            <description>The type of documents to search for.</description>
+            <required>false</required>
+        </parameter>
+        <parameter>
+            <name>start</name>
+            <description>The starting index for pagination.</description>
+            <required>false</required>
+        </parameter>
+        <parameter>
+            <name>limit</name>
+            <description>The maximum number of results to return.</description>
+            <required>false</required>
+        </parameter>
+    </required>
+    <optional>
+        <parameter>
+            <name>sortBy</name>
+            <description>Field to sort the results by.</description>
+            <required>false</required>
+        </parameter>
+        <parameter>
+            <name>sortOrder</name>
+            <description>Order of sorting (asc or desc).</description>
+            <required>false</required>
+        </parameter>
+    </optional>
+</webscript>
+</advanced-search.get.desc.xml>

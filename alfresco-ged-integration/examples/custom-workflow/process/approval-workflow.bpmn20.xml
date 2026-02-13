@@ -1,0 +1,21 @@
+<process id="approvalWorkflow" name="Approval Workflow" isExecutable="true">
+  <documentation>This is an approval workflow for document processing in Alfresco GED.</documentation>
+  <startEvent id="startEvent" name="Start" />
+  <sequenceFlow id="flow1" sourceRef="startEvent" targetRef="userTaskApprove" />
+  
+  <userTask id="userTaskApprove" name="Approve Document" activiti:assignee="${initiator}">
+    <documentation>User task for document approval.</documentation>
+  </userTask>
+  
+  <sequenceFlow id="flow2" sourceRef="userTaskApprove" targetRef="endEventApproved" />
+  <sequenceFlow id="flow3" sourceRef="userTaskApprove" targetRef="userTaskReject" />
+  
+  <userTask id="userTaskReject" name="Reject Document" activiti:assignee="${initiator}">
+    <documentation>User task for document rejection.</documentation>
+  </userTask>
+  
+  <sequenceFlow id="flow4" sourceRef="userTaskReject" targetRef="endEventRejected" />
+  
+  <endEvent id="endEventApproved" name="Approved" />
+  <endEvent id="endEventRejected" name="Rejected" />
+</process>

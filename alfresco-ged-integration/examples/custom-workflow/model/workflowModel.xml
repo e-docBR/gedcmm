@@ -1,0 +1,15 @@
+<workflowModel>
+    <workflow>
+        <id>customApprovalWorkflow</id>
+        <name>Custom Approval Workflow</name>
+        <description>This workflow handles the approval process for documents in Alfresco.</description>
+        <startEvent id="startEvent" name="Start" />
+        <sequenceFlow id="flow1" sourceRef="startEvent" targetRef="approveTask" />
+        <userTask id="approveTask" name="Approve Document">
+            <documentation>Task for approving the document.</documentation>
+            <assignee>manager</assignee>
+        </userTask>
+        <sequenceFlow id="flow2" sourceRef="approveTask" targetRef="endEvent" />
+        <endEvent id="endEvent" name="End" />
+    </workflow>
+</workflowModel>

@@ -1,0 +1,43 @@
+# This is an example configuration file for Alfresco Global Properties
+
+# Alfresco Global Properties Configuration
+
+# Database configuration
+db.driver=org.h2.Driver
+db.url=jdbc:h2:~/alfresco;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=FALSE
+db.username=alfresco
+db.password=alfresco
+
+# Directory for the content store
+dir.root=/usr/local/alfresco/alf_data
+
+# Mail server configuration
+mail.host=smtp.example.com
+mail.port=25
+mail.username=your-email@example.com
+mail.password=your-email-password
+
+# Authentication configuration
+authentication.chain=alfrescoNtlm:alfrescoNtlm,ldap1:ldap
+
+# LDAP configuration
+ldap.enabled=true
+ldap.host=ldap.example.com
+ldap.port=389
+ldap.user=cn=admin,dc=example,dc=com
+ldap.password=admin-password
+ldap.base=dc=example,dc=com
+
+# Enable or disable the Share application
+share.enabled=true
+
+# Enable or disable the web scripts
+web.script.enabled=true
+
+# Logging configuration
+log4j.logger.org.alfresco=INFO
+log4j.logger.org.springframework=INFO
+log4j.logger.org.hibernate=ERROR
+
+# Other custom configurations can be added below
+# ...

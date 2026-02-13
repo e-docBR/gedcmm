@@ -1,0 +1,44 @@
+<documentModel>
+    <model>
+        <name>custom:documentType</name>
+        <namespace>http://www.example.com/model/custom/1.0</namespace>
+        <description>Modelo de documento personalizado para integração com o GED Alfresco Community Edition.</description>
+        <properties>
+            <property>
+                <name>custom:documentTitle</name>
+                <type>d:text</type>
+                <mandatory>false</mandatory>
+                <defaultValue></defaultValue>
+                <description>Título do documento.</description>
+            </property>
+            <property>
+                <name>custom:documentDescription</name>
+                <type>d:text</type>
+                <mandatory>false</mandatory>
+                <defaultValue></defaultValue>
+                <description>Descrição do documento.</description>
+            </property>
+            <property>
+                <name>custom:documentDate</name>
+                <type>d:date</type>
+                <mandatory>false</mandatory>
+                <defaultValue></defaultValue>
+                <description>Data de criação do documento.</description>
+            </property>
+            <property>
+                <name>custom:documentAuthor</name>
+                <type>d:person</type>
+                <mandatory>false</mandatory>
+                <defaultValue></defaultValue>
+                <description>Autor do documento.</description>
+            </property>
+        </properties>
+        <associations>
+            <association>
+                <name>custom:relatedDocuments</name>
+                <targetType>custom:documentType</targetType>
+                <description>Documentos relacionados a este documento.</description>
+            </association>
+        </associations>
+    </model>
+</documentModel>

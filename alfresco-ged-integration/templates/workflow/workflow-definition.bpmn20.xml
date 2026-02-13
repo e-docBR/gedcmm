@@ -1,0 +1,11 @@
+<workflow-definition xmlns="http://www.omg.org/spec/BPMN/20111109/MODEL" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.omg.org/spec/BPMN/20111109/MODEL BPMN20.xsd" id="workflow-definition" name="Alfresco GED Workflow" targetNamespace="http://www.example.org/alfresco-ged-workflow">
+    <process id="gedWorkflow" name="GED Workflow" isExecutable="true">
+        <startEvent id="startEvent" name="Start" />
+        <sequenceFlow id="flow1" sourceRef="startEvent" targetRef="task1" />
+        <userTask id="task1" name="Review Document" />
+        <sequenceFlow id="flow2" sourceRef="task1" targetRef="task2" />
+        <userTask id="task2" name="Approve Document" />
+        <sequenceFlow id="flow3" sourceRef="task2" targetRef="endEvent" />
+        <endEvent id="endEvent" name="End" />
+    </process>
+</workflow-definition>
