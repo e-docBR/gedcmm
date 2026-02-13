@@ -1,15 +1,32 @@
-# 🗂️ Alfresco GED Integration (GEDCMM)
+<div align="center">
+  <img src="assets/images/edocbr-logo.png" alt="e-docBR Logo" width="600"/>
+  
+  # Alfresco GED Integration (GEDCMM)
+  
+  ### 🗂️ Sistema Completo de Gestão Eletrônica de Documentos
+  
+  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+  [![Python](https://img.shields.io/badge/Python-3.8%2B-blue.svg)](https://www.python.org/)
+  [![Docker](https://img.shields.io/badge/Docker-Ready-blue.svg)](https://www.docker.com/)
+  [![CI/CD](https://github.com/e-docBR/gedcmm/workflows/CI/badge.svg)](https://github.com/e-docBR/gedcmm/actions)
+  [![Alfresco](https://img.shields.io/badge/Alfresco-7.x-00A3E0.svg)](https://www.alfresco.com/)
+  
+  **Integração corporativa entre e-docBR e Alfresco Content Services**
+  
+  [🚀 Início Rápido](#-início-rápido) • 
+  [📚 Documentação](#-documentação) • 
+  [💻 Exemplos](#uso-básico) • 
+  [🤝 Contribuir](#-contribuindo)
+  
+</div>
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Python](https://img.shields.io/badge/Python-3.8%2B-blue.svg)](https://www.python.org/)
-[![Docker](https://img.shields.io/badge/Docker-Ready-blue.svg)](https://www.docker.com/)
-[![CI/CD](https://github.com/e-docBR/gedcmm/workflows/CI/badge.svg)](https://github.com/e-docBR/gedcmm/actions)
-
-> Sistema completo de integração e automação para Alfresco GED (Gestão Eletrônica de Documentos)
+---
 
 ## 📋 Visão Geral
 
-O **GEDCMM** é uma plataforma abrangente para integração, automação e gerenciamento de sistemas Alfresco GED. Oferece scripts Python poderosos, APIs REST, interface web moderna e ferramentas de automação para processos empresariais.
+O **GEDCMM** (Gestão Eletrônica de Documentos - Content Management Module) é uma plataforma desenvolvida pela **e-docBR** para integração, automação e gerenciamento de sistemas Alfresco GED. 
+
+Combinando o poder do Alfresco Content Services com scripts Python avançados, APIs REST modernas e interface web intuitiva, o GEDCMM oferece uma solução corporativa completa para gestão documental empresarial.
 
 ### 🎯 Principais Recursos
 
@@ -248,4 +265,20 @@ Este projeto está licenciado sob a Licença MIT - veja o arquivo [LICENSE](LICE
 
 ---
 
-<p align="center">Desenvolvido com ❤️ pela equipe <a href="https://github.com/e-docBR">e-docBR</a></p>
+<div align="center">
+  
+  ### 🏢 Sobre a e-docBR
+  
+  A **e-docBR** é especializada em soluções de Gestão Eletrônica de Documentos (GED), oferecendo integração corporativa com Alfresco, automação de processos documentais e desenvolvimento de sistemas customizados para empresas brasileiras.
+  
+  ---
+  
+  <img src="assets/images/edocbr-logo.png" alt="e-docBR" width="300"/>
+  
+  **Gestão Eletrônica de Documentos**
+  
+  Desenvolvido com ❤️ pela equipe [e-docBR](https://github.com/e-docBR)
+  
+  © 2024-2026 e-docBR. Todos os direitos reservados.
+  
+</div>
