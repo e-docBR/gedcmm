@@ -4,20 +4,14 @@
    <!-- e-docBR Custom Branding Configuration          -->
    <!-- =============================================== -->
    
-   <!-- Custom Theme Configuration -->
-   <config evaluator="string-compare" condition="WebFramework">
-      <web-framework>
-         <defaults>
-            <theme>edocBR</theme>
-         </defaults>
-      </web-framework>
-   </config>
-   
-   <!-- Logo and Branding -->
+   <!-- WebFramework Configuration: Theme, Logo and Branding -->
    <config evaluator="string-compare" condition="WebFramework" replace="true">
       <web-framework>
          <application-name>e-docBR GEDCMM</application-name>
          <application-logo>/share/res/components/images/edocbr-logo.png</application-logo>
+         <defaults>
+            <theme>edocBR</theme>
+         </defaults>
       </web-framework>
    </config>
    
