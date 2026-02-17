@@ -1,0 +1,229 @@
+/* ================================================
+   e-docBR Branding CSS
+   Custom styling for Alfresco Share interface
+   ================================================ */
+
+/* ===== HEADER ===== */
+.sticky-wrapper,
+#HEADER_APP_MENU_BAR {
+    background-color: #1B4F8C !important;
+    background-image: none !important;
+}
+
+.alfresco-header-Header {
+    background: #1B4F8C !important;
+    border-bottom: 3px solid #E30613 !important;
+}
+
+.alfresco-header-Title {
+    color: #FFFFFF !important;
+    font-weight: 600 !important;
+}
+
+.alfresco-menus-AlfMenuBarItem,
+.alfresco-header-AlfMenuItem .dijitMenuItemLabel {
+    color: #FFFFFF !important;
+}
+
+.alfresco-menus-AlfMenuBarItem:hover,
+.alfresco-header-AlfMenuItem:hover {
+    background-color: #0A2647 !important;
+}
+
+/* ===== BUTTONS ===== */
+.alfresco-buttons-AlfButton .dijitButtonNode,
+button.alfresco-buttons-AlfButton,
+.action-button {
+    background: #E30613 !important;
+    background-image: none !important;
+    color: #FFFFFF !important;
+    border: none !important;
+    border-radius: 4px !important;
+    padding: 8px 16px !important;
+}
+
+.alfresco-buttons-AlfButton:hover .dijitButtonNode,
+button.alfresco-buttons-AlfButton:hover {
+    background: #C00510 !important;
+}
+
+/* Secondary buttons */
+.alfresco-buttons-AlfButton.call-to-action .dijitButtonNode {
+    background: #1B4F8C !important;
+}
+
+.alfresco-buttons-AlfButton.call-to-action:hover .dijitButtonNode {
+    background: #154073 !important;
+}
+
+/* ===== LINKS ===== */
+a, .alfresco-navigation-Link {
+    color: #1B4F8C !important;
+}
+
+a:hover, .alfresco-navigation-Link:hover {
+    color: #E30613 !important;
+}
+
+/* ===== FOOTER ===== */
+.footer {
+    background-color: #0A2647 !important;
+    color: #FFFFFF !important;
+    border-top: 3px solid #E30613 !important;
+}
+
+.footer a {
+    color: #FFFFFF !important;
+}
+
+/* ===== DOCUMENT LIBRARY ===== */
+.alfresco-documentlibrary-AlfDocumentList .alfresco-lists-views-AlfListView tr:hover {
+    background-color: #F0F6FC !important;
+}
+
+.alfresco-documentlibrary-AlfDocumentList .selected {
+    background-color: #E3F2FD !important;
+    border-left: 3px solid #1B4F8C !important;
+}
+
+/* ===== SEARCH ===== */
+.alfresco-header-SearchBox .dijitInputInner {
+    border: 1px solid #CCCCCC !important;
+    border-radius: 20px !important;
+}
+
+.alfresco-header-SearchBox .dijitInputContainer {
+    background: #FFFFFF !important;
+}
+
+/* ===== DASHBOARDS ===== */
+.dashlet {
+    border: 1px solid #E0E0E0 !important;
+    border-radius: 4px !important;
+}
+
+.dashlet .title {
+    background: #F5F5F5 !important;
+    background-image: none !important;
+    color: #0A2647 !important;
+    border-bottom: 2px solid #1B4F8C !important;
+}
+
+/* ===== LOGIN PAGE ===== */
+.login #HEADER_LOGO {
+    background-image: url('/share/res/components/images/edocbr-logo.png') !important;
+    background-size: contain !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+    width: 300px !important;
+    height: 100px !important;
+}
+
+.login-container {
+    background: linear-gradient(135deg, #1B4F8C 0%, #0A2647 100%) !important;
+}
+
+.login-form {
+    background: #FFFFFF !important;
+    border-radius: 8px !important;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1) !important;
+}
+
+.login-form .login-button {
+    background: #E30613 !important;
+    color: #FFFFFF !important;
+    border: none !important;
+    border-radius: 4px !important;
+    padding: 12px !important;
+    font-weight: 600 !important;
+}
+
+.login-form .login-button:hover {
+    background: #C00510 !important;
+}
+
+/* ===== NAVIGATION ===== */
+.alfresco-navigation-Tree .dijitTreeRow {
+    padding: 4px !important;
+}
+
+.alfresco-navigation-Tree .dijitTreeRowSelected {
+    background-color: #E3F2FD !important;
+    border-left: 3px solid #1B4F8C !important;
+}
+
+/* ===== SHARE HEADER LOGO ===== */
+.alfresco-logo-Logo {
+    background-image: url('/share/res/components/images/edocbr-logo.png') !important;
+    background-size: contain !important;
+    background-repeat: no-repeat !important;
+    width: 200px !important;
+    height: 50px !important;
+}
+
+#HEADER_LOGO {
+    background-image: url('/share/res/components/images/edocbr-logo.png') !important;
+    background-size: contain !important;
+    width: 200px !important;
+}
+
+/* ===== FORM CONTROLS ===== */
+.form-container .form-field input[type="text"],
+.form-container .form-field textarea,
+.form-container .form-field select {
+    border: 1px solid #CCCCCC !important;
+    border-radius: 4px !important;
+    padding: 8px !important;
+}
+
+.form-container .form-field input[type="text"]:focus,
+.form-container .form-field textarea:focus,
+.form-container .form-field select:focus {
+    border-color: #1B4F8C !important;
+    outline: none !important;
+    box-shadow: 0 0 0 2px rgba(27, 79, 140, 0.1) !important;
+}
+
+/* ===== BREADCRUMBS ===== */
+.breadcrumb {
+    background: #F5F5F5 !important;
+    padding: 8px 16px !important;
+    border-radius: 4px !important;
+}
+
+.breadcrumb a {
+    color: #1B4F8C !important;
+}
+
+.breadcrumb a:hover {
+    color: #E30613 !important;
+}
+
+/* ===== STATUS MESSAGES ===== */
+.alfresco-notifications-Notification.alfresco-notifications-Notification--success {
+    background: #4CAF50 !important;
+}
+
+.alfresco-notifications-Notification.alfresco-notifications-Notification--error {
+    background: #E30613 !important;
+}
+
+.alfresco-notifications-Notification.alfresco-notifications-Notification--info {
+    background: #1B4F8C !important;
+}
+
+/* ===== RESPONSIVE ADJUSTMENTS ===== */
+@media (max-width: 768px) {
+    .alfresco-logo-Logo,
+    #HEADER_LOGO {
+        width: 150px !important;
+        height: 40px !important;
+    }
+}
+
+/* ===== APPLICATION TITLE ===== */
+.alfresco-header-Title__text::after {
+    content: ' - e-docBR GEDCMM' !important;
+    font-size: 0.9em !important;
+    color: #FFFFFF !important;
+}

@@ -2,34 +2,14 @@
    
    <!-- =============================================== -->
    <!-- e-docBR Custom Branding Configuration          -->
+   <!-- Simplified to avoid theme loading issues       -->
    <!-- =============================================== -->
    
-   <!-- WebFramework Configuration: Theme, Logo and Branding -->
-   <config evaluator="string-compare" condition="WebFramework" replace="true">
+   <!-- Application Title -->
+   <config evaluator="string-compare" condition="WebFramework">
       <web-framework>
          <application-name>e-docBR GEDCMM</application-name>
-         <application-logo>/share/res/components/images/edocbr-logo.png</application-logo>
-         <defaults>
-            <theme>edocBR</theme>
-         </defaults>
       </web-framework>
    </config>
-   
-   <!-- User Configuration -->
-   <config evaluator="string-compare" condition="Users" replace="true">
-      <users>
-         <!-- minimum length for username and password -->
-         <username-min-length>2</username-min-length>
-         <password-min-length>3</password-min-length>
-         <show-authorization-status>false</show-authorization-status>
-      </users>
-      <!-- This enables/disables the Add External Users Panel on the Add Users page. -->
-      <enable-external-users-panel>false</enable-external-users-panel>
-   </config>
-   
-   <!-- Document Library Configuration -->
-   <config evaluator="string-compare" condition="DocumentLibrary">
-      <repository-url>http://192.168.10.230:80/alfresco</repository-url>
-   </config>
-   
+
 </alfresco-config>
