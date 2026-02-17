@@ -1,0 +1,26 @@
+<theme>
+   <title>e-docBR Custom Theme</title>
+   <title-id>theme.edocbr</title-id>
+   
+   <!-- Custom CSS -->
+   <css-tokens>
+      <!-- Primary Colors -->
+      <primary-font-color>#0A2647</primary-font-color>
+      <primary-background-color>#1B4F8C</primary-background-color>
+      <header-background-color>#1B4F8C</header-background-color>
+      <header-font-color>#FFFFFF</header-font-color>
+      
+      <!-- Secondary Colors -->
+      <secondary-background-color>#E30613</secondary-background-color>
+      <footer-background-color>#0A2647</footer-background-color>
+      
+      <!-- Buttons -->
+      <button-background-color>#E30613</button-background-color>
+      <button-font-color>#FFFFFF</button-font-color>
+   </css-tokens>
+   
+   <!-- Include custom CSS file -->
+   <customizations>
+      <css src="/edocbr-custom-theme.css" />
+   </customizations>
+</theme>

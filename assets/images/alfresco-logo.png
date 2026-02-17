@@ -1,0 +1,2174 @@
+
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js" lang="en">
+<!--<![endif]-->
+<head>
+
+    
+<meta name="VIcurrentDateTime" content="639066018973685817" />
+<meta name="VirtualFolder" content="/" />
+<script type="text/javascript" src="/layouts/system/VisitorIdentification.js"></script>
+
+    
+
+
+<script>LUX=function(){function n(){return Date.now?Date.now():+new Date}var r,e=n(),t=window.performance||{},a=t.timing||{navigationStart:(null===(r=window.LUX)||void 0===r?void 0:r.ns)||e};function o(){return t.now?(r=t.now(),Math.floor(r)):n()-a.navigationStart;var r}(LUX=window.LUX||{}).ac=[],LUX.addData=function(n,r){return LUX.cmd(["addData",n,r])},LUX.cmd=function(n){return LUX.ac.push(n)},LUX.getDebug=function(){return[[e,0,[]]]},LUX.init=function(){return LUX.cmd(["init"])},LUX.mark=function(){for(var n=[],r=0;r<arguments.length;r++)n[r]=arguments[r];if(t.mark)return t.mark.apply(t,n);var e=n[0],a=n[1]||{};void 0===a.startTime&&(a.startTime=o());LUX.cmd(["mark",e,a])},LUX.markLoadTime=function(){return LUX.cmd(["markLoadTime",o()])},LUX.measure=function(){for(var n=[],r=0;r<arguments.length;r++)n[r]=arguments[r];if(t.measure)return t.measure.apply(t,n);var e,a=n[0],i=n[1],u=n[2];e="object"==typeof i?n[1]:{start:i,end:u};e.duration||e.end||(e.end=o());LUX.cmd(["measure",a,e])},LUX.send=function(){return LUX.cmd(["send"])},LUX.ns=e;var i=LUX;if(window.LUX_ae=[],window.addEventListener("error",(function(n){window.LUX_ae.push(n)})),window.LUX_al=[],"function"==typeof PerformanceObserver&&"function"==typeof PerformanceLongTaskTiming){var u=new PerformanceObserver((function(n){for(var r=n.getEntries(),e=0;e<r.length;e++)window.LUX_al.push(r[e])}));try{u.observe({type:"longtask"})}catch(n){}}return i}();</script><script src="https://cdn.speedcurve.com/js/lux.js?id=4413280123" defer crossorigin="anonymous"></script>
+
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<title>Alfresco | Open Source Content, Process &amp; Governance Management| Hyland</title>
+<meta name="description" content="Alfresco is an open, modern and secure system that intelligently activates process and content to accelerate the flow of business." />
+<meta name="keywords" content="" />
+
+
+
+
+<link rel="preconnect" href="https://res.cloudinary.com">
+
+<script>
+    // Check for IE before running
+    if ((window.navigator.userAgent.indexOf('MSIE ') < 0) && (window.navigator.userAgent.indexOf('Trident/') < 0))
+    {
+  !function(){var analytics=window.analytics=window.analytics||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware"];analytics.factory=function(e){return function(){var t=Array.prototype.slice.call(arguments);t.unshift(e);analytics.push(t);return analytics}};for(var e=0;e<analytics.methods.length;e++){var key=analytics.methods[e];analytics[key]=analytics.factory(key)}analytics.load=function(key,e){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(t,n);analytics._loadOptions=e};analytics._writeKey="FEIsAr8RS8vksoCw9UQdEM2i5LOuVyRn";analytics.SNIPPET_VERSION="4.13.2";
+  analytics.load("FEIsAr8RS8vksoCw9UQdEM2i5LOuVyRn");
+  analytics.page();
+  }}();
+    }
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Hyland",
+  "legalName": "Hyland",
+  "alternateName": "Hyland Software",
+  "url": "https://www.hyland.com",
+  "logo": "https://particle.hyland.com/assets/logos/horizontal-brand.svg",
+  "description": "Hyland, the leading provider of unified content, process and application intelligence solutions, is the pioneer of the Content Innovation Cloud™.",
+  "sameAs": [
+    "https://www.facebook.com/HylandSoftware",
+    "https://www.instagram.com/hylandgram",
+    "https://twitter.com/hyland",
+    "https://www.linkedin.com/company/hyland-software/",
+    "https://www.youtube.com/@HylandSoftware"
+  ],
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "28105 Clemens Road",
+    "addressLocality": "Westlake",
+    "addressRegion": "OH",
+    "postalCode": "44145",
+    "addressCountry": "US"
+  },
+  "contactPoint": [
+    {
+      "@type": "ContactPoint",
+      "telephone": "+1-440-788-5000",
+      "contactType": "Front Desk",
+      "contactOption": "TollFree",
+      "areaServed": "US"
+    },
+    {
+      "@type": "ContactPoint",
+      "faxNumber": "+1.440-788-5100",
+      "contactType": "Fax"
+    },
+    {
+      "@type": "ContactPoint",
+      "telephone": "+1-888-495-2638",
+      "contactType": "Sales and Marketing",
+      "areaServed": "US"
+    }
+  ],
+  "foundingDate": "1991"
+}
+</script>
+
+<script>
+        // Define dataLayer and the gtag function.
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('consent', 'default', {
+            'ad_storage': 'denied',
+            'analytics_storage': 'denied',
+            'functionality_storage': 'granted',
+            'personalization_storage': 'denied',
+            'region': ['BE', 'BG', 'CZ', 'DK', 'DE', 'EE', 'IE', 'GR', 'ES', 'FR', 'HR', 'IT', 'CY', 'LV', 'LT', 'LU', 'HU', 'MT', 'NL', 'AT', 'PL', 'PT', 'RO', 'SI', 'SK', 'FI', 'SE', 'GB']
+        });
+        gtag('consent', 'default', {
+            'ad_storage': 'granted'
+        });
+</script>
+<script>
+        window.dataLayer = window.dataLayer || [];
+            window.dataLayer.push({ 'event' : 'Sitecore Contact ID Added', 'sitecoreContactId': 'fa2e240779534cf8b27d870b5bf52dc6' });
+</script>
+
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start': new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0], j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-K5HTG2');</script>
+
+<script src="https://cdn.cookielaw.org/scripttemplates/otSDKStub.js"  type="text/javascript" charset="UTF-8" data-domain-script="29d70247-6e07-4ee3-b16b-d4bcb34afdda" ></script>
+<script type="text/javascript">function OptanonWrapper() { }</script>
+
+<link rel="stylesheet" href="https://particle.hyland.com/ui/style.css">
+<script defer type="module" src="https://particle.hyland.com/ui/ui.js" ></script> 
+<script defer nomodule src="https://particle.hyland.com/ui/ui.iife.js"></script>
+
+<link
+	rel="preload"
+	href="https://particle.hyland.com/assets/fonts/inter/inter-latin-standard-normal.woff2"
+	as="font"
+/>
+
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="author" content=""><meta name="language" content="en-us">
+<link rel="canonical" href="https://www.hyland.com/en/solutions/products/alfresco-platform" />
+<link rel="alternate" href="https://www.hyland.com/en/solutions/products/alfresco-platform" hreflang="en" />
+<link rel="alternate" href="https://www.hyland.com/pt/solutions/products/alfresco-platform" hreflang="pt" />
+<link rel="alternate" href="https://www.hyland.com/fr/solutions/products/alfresco-platform" hreflang="fr" />
+<link rel="alternate" href="https://www.hyland.com/de/solutions/products/alfresco-platform" hreflang="de" />
+<link rel="alternate" href="https://www.hyland.com/ja/solutions/products/alfresco-platform" hreflang="ja" />
+<link rel="alternate" href="https://www.hyland.com/es/solutions/products/alfresco-platform" hreflang="es" />
+<link rel="alternate" href="https://www.hyland.com/en/solutions/products/alfresco-platform" hreflang="x-default" />
+
+
+
+<meta property="og:description"  content="Alfresco is an open, modern and secure system that intelligently activates process and content to accelerate the flow of business." /><meta property="og:image"  content="https://res.cloudinary.com/hyld/image/upload/f_auto,dpr_auto,w_auto,q_auto,c_scale/v1/h2/1080x1080-hyland-social-image" /><meta property="og:title"  content="Hyland Alfresco | Hyland" /><meta property="og:url"  content="https://www.hyland.com/en/solutions/products/alfresco-platform" />
+
+<link 
+  rel="manifest"
+  href="https://particle.hyland.com/assets/favicon/manifest.webmanifest"
+>
+<link
+  rel="icon"
+  href="https://particle.hyland.com/assets/favicon/favicon.ico"
+  sizes="any"
+>
+<link
+  rel="icon"
+  href="https://particle.hyland.com/assets/favicon/icon.svg"
+  type="image/svg+xml"
+>
+<link
+  rel="apple-touch-icon"
+  href="https://particle.hyland.com/assets/favicon/apple-touch-icon.png"
+>
+</head>
+<body class="default-device bodyclass">
+    
+
+
+<noscript><iframe src=https://www.googletagmanager.com/ns.html?id=GTM-K5HTG2 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript> 
+
+ 
+
+
+<script>
+    window.pageTaxonomy =  {"sent_timestamp":"2026-02-13T17:39:31Z","anonymous_id":"","sitecore_page":"Hyland Alfresco","created_date":"2025-02-05T22:06:35Z","updated_date":"2025-11-10T12:36:25Z","search_page_grouping":"product","sitecore_taxonomy_data":{"page_type":["Product Description"],"capabilities":["Content Management","Enterprise Products"],"departments":[],"industries":[],"integrations":[],"products":["Alfresco"],"pillars":[]}};
+</script>
+    
+
+    <!-- #header -->
+    <header class="module vanilla-module A1-header" data-component="organisms/A1-header" data-empty-autocomplete-label="There are no current results ">
+        <a href="#mainContent" class="sr-only sr-only-focusable skip-link">Skip to content</a>
+        
+<div class="component plain-html">
+    <div class="component-content">
+<div
+  style="display: contents"
+  class="svelte-module"
+  data-component="organisms/notify-banner"
+  data-text="<p>Discover intelligent solutions, connect with experts and innovate confidently at CommunityLIVE 2026.</p>"
+  data-cta_primary_text="Register now!"
+  data-cta_primary_url="https://www.communitylive.com/en"
+></div>    </div>
+</div><div class="container">
+<div class="A1-header__top-section">
+    <a class="navbar-brand hyland-logo" href="/en">
+      <svg id="hyland_logo" width="232" height="48" viewBox="0 0 232 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <g clip-path="url(#clip0_3796_22863)">
+    <path d="M112.303 16.411V31.7728H108.729V25.4395H99.4351V31.7728H95.8604V16.411H99.4351V22.4024H108.727V16.411H112.303ZM130.796 16.411H134.993L127.349 25.397V31.7728H123.774V25.397L116.108 16.411H120.412L125.614 22.4874L130.794 16.411H130.796ZM138.796 16.411H142.371V28.7144H152.754V31.7728H138.796V16.411ZM168.293 16.411L175.937 31.7728H172.061L170.435 28.4787H162L160.374 31.7728H156.563L164.246 16.411H168.293ZM163.454 25.5246H168.998L166.236 19.9197L163.452 25.5246H163.454ZM195.947 31.7709H192.8L183.206 20.9668V31.7709H179.738V16.4091H183.357L192.479 26.6992V16.4091H195.947V31.7709ZM202 16.4033H210.014C215.509 16.4033 218.954 19.4173 218.954 24.1315C218.954 28.8458 215.507 31.8598 210.014 31.8598H202V16.4033ZM209.927 28.7665C213.26 28.7665 215.209 26.9369 215.209 24.1315C215.209 21.3262 213.264 19.4946 209.908 19.4946H205.482V28.7685H209.929L209.927 28.7665ZM224.968 17.122V19.9834H224.137V17.122H222.583V16.411H226.517V17.122H224.968ZM229.307 19.9834L228.096 17.2322V19.9834H227.284V16.411H228.539L229.653 18.9691L230.764 16.411H232V19.9834H231.194V17.2322L229.978 19.9834H229.307Z" fill="white"/>
+    <path d="M43.3629 0L29.6323 23.9923H45.534L59.2645 0H43.3629Z" fill="#6E33FF"/>
+    <path d="M13.7305 23.9961L0 47.9864H15.9017L29.6322 23.9961H13.7305Z" fill="#f1cb61"/>
+    <path d="M45.5494 24.0078L31.8188 48.0001H47.7224L61.451 24.0078H45.5494Z" fill="#52A1FF"/>
+    <path d="M75.1836 0.015625L61.4512 24.0079H77.3548L91.0872 0.015625H75.1836Z" fill="#13eac1"/>
+  </g>
+  <defs>
+    <clipPath id="clip0_3796_22863">
+      <rect width="232" height="48" fill="white"/>
+    </clipPath>
+  </defs>
+</svg>
+    </a>
+  <div class="A1-header__utility-navigation">
+    <ul class="A1-header__top-section__links-list">
+      <li class="link-list-top"><a href="https://community.hyland.com/" target="_blank">Community</a></li>
+      <li class="link-list-top"><a href="https://www.hyland.com/en/contact-us">Contact us</a></li>
+      <li class="dropdown language-dropdown language-cont">
+          <button
+            class="btn dropdown-toggle"
+            type="button"
+            id="dropdownMenuLanguage"
+            aria-expanded="false"
+          >
+            <span class="A1-header__flag">
+              <svg width="24" height="24" fill="none" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 1.999c5.524 0 10.002 4.478 10.002 10.002 0 5.523-4.478 10.001-10.002 10.001-5.524 0-10.002-4.478-10.002-10.001C1.998 6.477 6.476 1.999 12 1.999ZM14.939 16.5H9.06c.652 2.414 1.786 4.002 2.939 4.002s2.287-1.588 2.939-4.002Zm-7.43 0H4.785a8.532 8.532 0 0 0 4.094 3.411c-.522-.82-.953-1.846-1.27-3.015l-.102-.395Zm11.705 0h-2.722c-.324 1.335-.792 2.5-1.373 3.411a8.528 8.528 0 0 0 3.91-3.127l.185-.283ZM7.094 10H3.735l-.005.017a8.525 8.525 0 0 0-.233 1.984c0 1.056.193 2.067.545 3h3.173a20.847 20.847 0 0 1-.123-5Zm8.303 0H8.603a18.966 18.966 0 0 0 .135 5h6.524a18.974 18.974 0 0 0 .135-5Zm4.868 0h-3.358c.062.647.095 1.317.095 2a20.3 20.3 0 0 1-.218 3h3.173a8.482 8.482 0 0 0 .544-3c0-.689-.082-1.36-.236-2ZM8.88 4.09l-.023.008A8.531 8.531 0 0 0 4.25 8.5h3.048c.314-1.752.86-3.278 1.583-4.41ZM12 3.499l-.116.005C10.62 3.62 9.396 5.622 8.83 8.5h6.342c-.566-2.87-1.783-4.869-3.045-4.995L12 3.5Zm3.12.59.107.175c.669 1.112 1.177 2.572 1.475 4.237h3.048a8.533 8.533 0 0 0-4.339-4.29l-.291-.121Z" fill="#ffffff"/></svg>
+            </span>
+            <span class="language-text sr-only--md">English</span>
+            <span class="dropdown-item--md" aria-hidden="true">EN</span>
+          </button>
+          <div class="dropdown-menu" aria-labelledby="dropdownMenuLanguage">
+            <a class="dropdown-item" href="https://www.hyland.com/pt"><span class="sr-only--md">Português</span><span class="dropdown-item--md" aria-hidden="true">PT</span></a>
+            <a class="dropdown-item" href="https://www.hyland.com/en"><span class="sr-only--md">English</span><span class="dropdown-item--md" aria-hidden="true">EN</span></a>
+            <a class="dropdown-item" href="https://www.hyland.com/fr"><span class="sr-only--md">Français</span><span class="dropdown-item--md" aria-hidden="true">FR</span></a>
+            <a class="dropdown-item" href="https://www.hyland.com/de"><span class="sr-only--md">Deutsch</span><span class="dropdown-item--md" aria-hidden="true">DE</span></a>
+            <a class="dropdown-item" href="https://www.hyland.com/ja"><span class="sr-only--md">日本語</span><span class="dropdown-item--md" aria-hidden="true">日本語</span></a>
+            <a class="dropdown-item" href="https://www.hyland.com/es"><span class="sr-only--md">Español</span><span class="dropdown-item--md" aria-hidden="true">ES</span></a>
+            
+          </div>
+      </li>
+      <li class="A1-header__search">
+        <button class="A1-header__search-toggle">
+          <svg width="24" height="24" fill="none" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" class="A1-header__search-icon"><path d="M10 2.75a7.25 7.25 0 0 1 5.63 11.819l4.9 4.9a.75.75 0 0 1-.976 1.134l-.084-.073-4.901-4.9A7.25 7.25 0 1 1 10 2.75Zm0 1.5a5.75 5.75 0 1 0 0 11.5 5.75 5.75 0 0 0 0-11.5Z" fill="#fff"/></svg>
+          <span class="ATM01-button__label">
+            Search
+          </span>
+        </button>
+      </li>
+      <li class="mobile-hamburger-cont">
+        <button
+          id="mobileMenu"
+          class="btn collapsed"
+          type="button"
+          data-mobiletarget="#collapseMobileFirstLevel"
+          aria-expanded="false"
+          aria-controls="collapseMobileFirstLevel"
+          aria-label="Toggle mobile navigation"
+        >
+    <svg
+      class="menu-icon"
+      xmlns="http://www.w3.org/2000/svg"
+      role="presentation"
+      width="32"
+      height="32"
+      viewBox="0 0 32 32"
+      fill="none"
+    >
+      <path
+        fill="var(--white-100)"
+        d="M2 6a1 1 0 0 1 1-1h18a1 1 0 1 1 0 2H3a1 1 0 0 1-1-1ZM2 18a1 1 0 0 1 1-1h18a1 1 0 1 1 0 2H3a1 1 0 0 1-1-1ZM3 11a1 1 0 1 0 0 2h18a1 1 0 1 0 0-2H3Z"
+      ></path>
+    </svg>
+    <span
+      class="ATM0y-icon close-menu-icon"
+      data-size="medium"
+      role="presentation"
+      style="--icon-color: var(--white-100)"
+      ><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+        <path
+          d="m4.21 4.39.08-.1a1 1 0 0 1 1.32-.08l.1.08L12 10.6l6.3-6.3a1 1 0 1 1 1.4 1.42L13.42 12l6.3 6.3a1 1 0 0 1 .08 1.31l-.08.1a1 1 0 0 1-1.32.08l-.1-.08L12 13.4l-6.3 6.3a1 1 0 0 1-1.4-1.42L10.58 12l-6.3-6.3a1 1 0 0 1-.08-1.31l.08-.1z"
+        ></path></svg
+      ></span
+    >
+          <span class="sr-only">Toggle mobile navigation</span>
+        </button>
+      </li>
+    </ul>
+    <form class="A1-header__search-bar" action="/en/search">
+      <label for="search" class="A1-header__search-label">
+        <svg width="24" height="24" fill="none" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M10 2.75a7.25 7.25 0 0 1 5.63 11.819l4.9 4.9a.75.75 0 0 1-.976 1.134l-.084-.073-4.901-4.9A7.25 7.25 0 1 1 10 2.75Zm0 1.5a5.75 5.75 0 1 0 0 11.5 5.75 5.75 0 0 0 0-11.5Z" fill="var(--content-secondary)"></path></svg>
+      </label>
+      <input
+        type="search"
+        name="search"
+        id="search"
+        class="A1-header__search-input"
+        placeholder="Search all Hyland" />
+        <button
+              class="A1-header__button A1-header__button--clear-search A1-header__button--hide"
+              aria-label=""
+              tabindex="0"
+            >
+              <span class="A1-header__icon">
+                <span class="A1-header__icon-canvas">
+                  <svg width="24" height="24" fill="none" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="m4.397 4.554.073-.084a.75.75 0 0 1 .976-.073l.084.073L12 10.939l6.47-6.47a.75.75 0 1 1 1.06 1.061L13.061 12l6.47 6.47a.75.75 0 0 1 .072.976l-.073.084a.75.75 0 0 1-.976.073l-.084-.073L12 13.061l-6.47 6.47a.75.75 0 0 1-1.06-1.061L10.939 12l-6.47-6.47a.75.75 0 0 1-.072-.976l.073-.084-.073.084Z" fill="#191C1A"/></svg>
+                </span>
+              </span>
+            </button>
+            <button type="submit" class="A1-header__search-btn">
+              Search
+            </button>
+            <button class="A1-header__search-close">
+            <svg title="Close search" width="24" height="24" fill="none" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="m4.397 4.554.073-.084a.75.75 0 0 1 .976-.073l.084.073L12 10.939l6.47-6.47a.75.75 0 1 1 1.06 1.061L13.061 12l6.47 6.47a.75.75 0 0 1 .072.976l-.073.084a.75.75 0 0 1-.976.073l-.084-.073L12 13.061l-6.47 6.47a.75.75 0 0 1-1.06-1.061L10.939 12l-6.47-6.47a.75.75 0 0 1-.072-.976l.073-.084-.073.084Z" fill="#fff"/></svg></button>
+          </form>
+  </div>
+</div>
+
+<div class="A1-header__bottom-section">
+  
+
+
+
+
+<div class="collapse" id="collapseMobileFirstLevel">
+    <div class="A1-header__bottom-section__first-level" role="tablist">
+        <!-- menu items 1st level -->
+            <div class="nav-item">
+                <button class="nav-link dropdown-toggle"
+                        aria-expanded="false"
+                        role="tab">
+                    PLATFORM
+                </button>
+                    <!-- level 1 overlay  -->
+                    <div class="dropdown-menu megamenu">
+                        <div class="container">
+                            <div class="row">
+                                <div class="megamenu-left-section">
+                                    <!-- mobile back button / same text as nav-item 1st level -->
+                                    <button class="mobile-back">
+                                        PLATFORM
+                                    </button>
+                                    <!-- level 2 -->
+                                    <ul class="nav nav-pills nav-stacked">
+                                        <li class="default-opt">
+                                            <a href="https://www.hyland.com/en/platform" class="second-level">
+                                                Platform
+                                            </a>
+                                        </li>
+                                                <li>
+                                                        <a href="https://www.hyland.com/en/platform/content-intelligence" target="_self" rel="">
+                                                            <span>Content Intelligence</span>
+                                                        </a>
+                                                </li>
+                                                <li>
+                                                        <a href="https://www.hyland.com/en/platform/content-capture-processing" target="_self" rel="">
+                                                            <span>Content Capture &amp; Processing</span>
+                                                        </a>
+                                                </li>
+                                                <li>
+                                                        <a href="https://www.hyland.com/en/platform/process-automation" target="_self" rel="">
+                                                            <span>Process Automation</span>
+                                                        </a>
+                                                </li>
+                                                <li>
+                                                        <a href="https://www.hyland.com/en/platform/content-management" target="_self" rel="">
+                                                            <span>Content Management</span>
+                                                        </a>
+                                                </li>
+                                                <li>
+                                                        <a href="https://www.hyland.com/en/platform/governance" target="_self" rel="">
+                                                            <span>Governance</span>
+                                                        </a>
+                                                </li>
+                                                <li>
+                                                        <a href="https://www.hyland.com/en/platform/application-development" target="_self" rel="">
+                                                            <span>Application Development</span>
+                                                        </a>
+                                                </li>
+                                                <li>
+                                                        <a href="https://www.hyland.com/en/platform/integrations" target="_self" rel="">
+                                                            <span>Systems Integrations</span>
+                                                        </a>
+                                                </li>
+                                                <li>
+                                                        <a href="https://www.hyland.com/en/platform/collaboration" target="_self" rel="">
+                                                            <span>Collaboration</span>
+                                                        </a>
+                                                </li>
+                                                <li>
+                                                        <a href="https://www.hyland.com/en/platform/cloud" target="_self" rel="">
+                                                            <span>Cloud</span>
+                                                        </a>
+                                                </li>
+
+                                    </ul>
+                                </div>
+                                <div class="megamenu-main-section">
+                                    <div class="tab-content">
+                                        <div id="pla_" class="tab-pane fade in">
+                                            <!-- mobile back button / same text as pill 2nd level -->
+                                            <button class="mobile-back">PLATFORM</button>
+                                                <div class="row default-variant">
+                                                        <div class="default-image">
+                                                            <img class="ATM0x-image-cloudinary cld-responsive" src="https://res.cloudinary.com/hyld/image/upload/f_auto,c_fill,g_auto,w_247,h_247/v1/h2/new_alt/content-innovation-cloud-square-noheader_blue-alt" srcset="https://res.cloudinary.com/hyld/image/upload/f_auto,c_fill,g_auto,w_330,h_330/v1/h2/new_alt/content-innovation-cloud-square-noheader_blue-alt 330w, https://res.cloudinary.com/hyld/image/upload/f_auto,c_fill,g_auto,w_660,h_660/v1/h2/new_alt/content-innovation-cloud-square-noheader_blue-alt 660w, https://res.cloudinary.com/hyld/image/upload/f_auto,c_fill,g_auto,w_990,h_990/v1/h2/new_alt/content-innovation-cloud-square-noheader_blue-alt 990w" class="ATM0x-image-cloudinary cld-responsive" alt="Content Innovaton Cloud diagram" loading="lazy" sizes="(max-width: 991px) 41vw,(max-width: 1199px) 197px,(max-width: 1439px) 247px,(max-width: 1599px) 286px,330px">
+                                                        </div>
+                                                    <div class="default-content">
+                                                            <h6 class="section-title">Content Innovation Cloud™</h6>
+                                                        <p>Harness the power of a unified content, process and application intelligence platform to unlock the value of enterprise content.</p>                                                                                                                    <a class="vanilla-module ATM01-button ATM01-button--text-link ATM01-button--medium vanilla-module--mounted" data-component="atoms/ATM01-button" href="https://www.hyland.com/en/platform" target="">
+                                                                <span class="ATM01-button__label">Learn more</span>
+                                                                <span class="ATM01-button__icon">
+                                                                    <span class="ATM01-button__canvas">
+                                                                        <svg width="24" height="24" fill="none" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M13.267 4.209a.75.75 0 0 0-1.034 1.086l6.251 5.955H3.75a.75.75 0 0 0 0 1.5h14.734l-6.251 5.954a.75.75 0 0 0 1.034 1.087l7.42-7.067a.996.996 0 0 0 .3-.58.758.758 0 0 0-.001-.29.995.995 0 0 0-.3-.578l-7.419-7.067Z" fill="currentColor"/></svg>
+                                                                    </span>
+                                                                </span>
+                                                            </a>
+                                                    </div>
+                                                </div>
+                                        </div>
+                                                <div id="pla_content_intelligence" class="tab-pane fade in">
+                                                    <!-- mobile back button / same text as pill 2nd level -->
+                                                    <button class="mobile-back">Content Intelligence</button>
+                                                </div>
+                                                <div id="pla_content_capture_processing" class="tab-pane fade in">
+                                                    <!-- mobile back button / same text as pill 2nd level -->
+                                                    <button class="mobile-back">Content Capture &amp; Processing</button>
+                                                </div>
+                                                <div id="pla_process_automation" class="tab-pane fade in">
+                                                    <!-- mobile back button / same text as pill 2nd level -->
+                                                    <button class="mobile-back">Process Automation</button>
+                                                </div>
+                                                <div id="pla_content_management" class="tab-pane fade in">
+                                                    <!-- mobile back button / same text as pill 2nd level -->
+                                                    <button class="mobile-back">Content Management</button>
+                                                </div>
+                                                <div id="pla_governance" class="tab-pane fade in">
+                                                    <!-- mobile back button / same text as pill 2nd level -->
+                                                    <button class="mobile-back">Governance</button>
+                                                </div>
+                                                <div id="pla_application_development" class="tab-pane fade in">
+                                                    <!-- mobile back button / same text as pill 2nd level -->
+                                                    <button class="mobile-back">Application Development</button>
+                                                        <div class="row default-variant">
+                                                            <div class="default-content">
+                                                                    <h6 class="section-title">Insert your title here</h6>
+                                                                                                                                                                                            </div>
+                                                        </div>
+                                                </div>
+                                                <div id="pla_systems_integrations" class="tab-pane fade in">
+                                                    <!-- mobile back button / same text as pill 2nd level -->
+                                                    <button class="mobile-back">Systems Integrations</button>
+                                                </div>
+                                                <div id="pla_collaboration" class="tab-pane fade in">
+                                                    <!-- mobile back button / same text as pill 2nd level -->
+                                                    <button class="mobile-back">Collaboration</button>
+                                                        <div class="row default-variant">
+                                                            <div class="default-content">
+                                                                    <h6 class="section-title">Insert your title here</h6>
+                                                                                                                                                                                            </div>
+                                                        </div>
+                                                </div>
+                                                <div id="pla_cloud" class="tab-pane fade in">
+                                                    <!-- mobile back button / same text as pill 2nd level -->
+                                                    <button class="mobile-back">Cloud</button>
+                                                </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- close overlay -->
+                            <button class="close-megamenu">
+                                <svg width="20" height="20" fill="none" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="m4.21 4.387.083-.094a1 1 0 0 1 1.32-.083l.094.083L12 10.585l6.293-6.292a1 1 0 1 1 1.414 1.414L13.415 12l6.292 6.293a1 1 0 0 1 .083 1.32l-.083.094a1 1 0 0 1-1.32.083l-.094-.083L12 13.415l-6.293 6.292a1 1 0 0 1-1.414-1.414L10.585 12 4.293 5.707a1 1 0 0 1-.083-1.32l.083-.094-.083.094Z" fill="currentColor"/></svg>
+ Close menu
+                            </button>
+                            <div class="overlay-background"></div>
+                        </div>
+                    </div>
+            </div>
+            <div class="nav-item">
+                <button class="nav-link dropdown-toggle"
+                        aria-expanded="false"
+                        role="tab">
+                    SOLUTIONS
+                </button>
+                    <!-- level 1 overlay  -->
+                    <div class="dropdown-menu megamenu">
+                        <div class="container">
+                            <div class="row">
+                                <div class="megamenu-left-section">
+                                    <!-- mobile back button / same text as nav-item 1st level -->
+                                    <button class="mobile-back">
+                                        SOLUTIONS
+                                    </button>
+                                    <!-- level 2 -->
+                                    <ul class="nav nav-pills nav-stacked">
+                                        <li class="default-opt">
+                                            <a href="https://www.hyland.com/en/solutions" class="second-level">
+                                                Solutions Overview
+                                            </a>
+                                        </li>
+                                                <li>
+                                                        <a href="#sol_by_industry" class="pill second-level">By Industry</a>
+                                                </li>
+                                                <li>
+                                                        <a href="#sol_by_department" class="pill second-level">By Department</a>
+                                                </li>
+                                                <li>
+                                                        <a href="#sol_services" class="pill second-level">Services</a>
+                                                </li>
+                                                <li>
+                                                        <a href="https://www.hyland.com/en/solutions/technical-support" target="_self" rel="">
+                                                            <span>Technical Support</span>
+                                                        </a>
+                                                </li>
+                                                <li>
+                                                        <a href="https://www.hyland.com/en/solutions/products" target="_self" rel="">
+                                                            <span>All Products</span>
+                                                        </a>
+                                                </li>
+
+                                    </ul>
+                                </div>
+                                <div class="megamenu-main-section">
+                                    <div class="tab-content">
+                                        <div id="sol_" class="tab-pane fade in">
+                                            <!-- mobile back button / same text as pill 2nd level -->
+                                            <button class="mobile-back">SOLUTIONS</button>
+                                                <div class="row default-variant">
+                                                        <div class="default-image">
+                                                            <img class="ATM0x-image-cloudinary cld-responsive" src="https://res.cloudinary.com/hyld/image/upload/f_auto,c_fill,g_auto,w_247,h_247/v1/h2/new/AdobeStock_1004554714" srcset="https://res.cloudinary.com/hyld/image/upload/f_auto,c_fill,g_auto,w_330,h_330/v1/h2/new/AdobeStock_1004554714 330w, https://res.cloudinary.com/hyld/image/upload/f_auto,c_fill,g_auto,w_660,h_660/v1/h2/new/AdobeStock_1004554714 660w, https://res.cloudinary.com/hyld/image/upload/f_auto,c_fill,g_auto,w_990,h_990/v1/h2/new/AdobeStock_1004554714 990w" class="ATM0x-image-cloudinary cld-responsive" alt="An abstract design showcasing a red and blue background with a prominent diagonal line cutting across." loading="lazy" sizes="(max-width: 991px) 41vw,(max-width: 1199px) 197px,(max-width: 1439px) 247px,(max-width: 1599px) 286px,330px">
+                                                        </div>
+                                                    <div class="default-content">
+                                                            <h6 class="section-title">Intelligent document processing</h6>
+                                                        <p>Automate your document-centric processes with AI-powered document capture, separation, classification, extraction and enrichment.</p>                                                                                                                    <a class="vanilla-module ATM01-button ATM01-button--text-link ATM01-button--medium vanilla-module--mounted" data-component="atoms/ATM01-button" href="https://www.hyland.com/en/solutions/products/intelligent-document-processing" target="">
+                                                                <span class="ATM01-button__label">Learn about Hyland IDP</span>
+                                                                <span class="ATM01-button__icon">
+                                                                    <span class="ATM01-button__canvas">
+                                                                        <svg width="24" height="24" fill="none" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M13.267 4.209a.75.75 0 0 0-1.034 1.086l6.251 5.955H3.75a.75.75 0 0 0 0 1.5h14.734l-6.251 5.954a.75.75 0 0 0 1.034 1.087l7.42-7.067a.996.996 0 0 0 .3-.58.758.758 0 0 0-.001-.29.995.995 0 0 0-.3-.578l-7.419-7.067Z" fill="currentColor"/></svg>
+                                                                    </span>
+                                                                </span>
+                                                            </a>
+                                                    </div>
+                                                </div>
+                                        </div>
+                                                <div id="sol_by_industry" class="tab-pane fade in">
+                                                    <!-- mobile back button / same text as pill 2nd level -->
+                                                    <button class="mobile-back">By Industry</button>
+                                                    <div class="row">
+                                                        <div class="megamenu-center-section">
+                                                            <ul class="third-level-list">
+                                                                <li>
+                                                                    <a href="https://www.hyland.com/en/solutions/industries">Industries Overview</a>
+                                                                </li>
+                                                                    <li>
+
+                                                                        <a href="https://www.hyland.com/en/solutions/industries/healthcare" tgt="_self" rel="">
+                                                                            <span>Healthcare</span>
+                                                                        </a>
+                                                                    </li>
+                                                                    <li>
+
+                                                                        <a href="https://www.hyland.com/en/solutions/industries/financial-services" tgt="_self" rel="">
+                                                                            <span>Financial Services</span>
+                                                                        </a>
+                                                                    </li>
+                                                                    <li>
+
+                                                                        <a href="https://www.hyland.com/en/solutions/industries/government" tgt="_self" rel="">
+                                                                            <span>Government</span>
+                                                                        </a>
+                                                                    </li>
+                                                                    <li>
+
+                                                                        <a href="https://www.hyland.com/en/solutions/industries/insurance" tgt="_self" rel="">
+                                                                            <span>Insurance</span>
+                                                                        </a>
+                                                                    </li>
+                                                                    <li>
+
+                                                                        <a href="https://www.hyland.com/en/solutions/industries/education" tgt="_self" rel="">
+                                                                            <span>Education</span>
+                                                                        </a>
+                                                                    </li>
+                                                                    <li>
+
+                                                                        <a href="https://www.hyland.com/en/solutions/industries/media-and-entertainment" tgt="_self" rel="">
+                                                                            <span>Media &amp; Entertainment</span>
+                                                                        </a>
+                                                                    </li>
+                                                                    <li>
+
+                                                                        <a href="https://www.hyland.com/en/solutions/industries/manufacturing" tgt="_self" rel="">
+                                                                            <span>Manufacturing</span>
+                                                                        </a>
+                                                                    </li>
+                                                                    <li>
+
+                                                                        <a href="https://www.hyland.com/en/solutions/industries/cpg-and-retail" tgt="_self" rel="">
+                                                                            <span>CPG &amp; Retail</span>
+                                                                        </a>
+                                                                    </li>
+                                                                    <li>
+
+                                                                        <a href="https://www.hyland.com/en/solutions/industries/other-industries" tgt="_self" rel="">
+                                                                            <span>Other Industries</span>
+                                                                        </a>
+                                                                    </li>
+                                                            </ul>
+                                                        </div>
+                                                        <div class="megamenu-right-section">
+                                                            <h6 class="section-title">Industries</h6>
+                                                            <p>It's your unique digital evolution &hellip; but you don't have to face it alone. We understand the landscape of your industry and the unique needs of the people you serve.</p>
+                                                            <img src="https://res.cloudinary.com/hyld/image/upload/f_auto,c_fill,g_auto,w_339,h_339/v1/h2/articles/Cleveland%20Hyland%20Company" srcset="https://res.cloudinary.com/hyld/image/upload/f_auto,c_fill,g_auto,w_439,h_439/v1/h2/articles/Cleveland%20Hyland%20Company 439w, https://res.cloudinary.com/hyld/image/upload/f_auto,c_fill,g_auto,w_878,h_878/v1/h2/articles/Cleveland%20Hyland%20Company 878w, https://res.cloudinary.com/hyld/image/upload/f_auto,c_fill,g_auto,w_1317,h_1317/v1/h2/articles/Cleveland%20Hyland%20Company 1317w" class="img-fluid" alt="Two people review data analytics graphics on a conference call." loading="lazy" sizes="(max-width: 767px) calc(100vw - 48px),(max-width: 991px) 41vw,(max-width: 1199px) 279px,(max-width: 1439px) 339px,(max-width: 1599px) 386px,439px">
+
+                                                                <a class="ATM01-button ATM01-button--text-link ATM01-button--large" href="https://www.hyland.com/en/solutions/industries" target="_self" rel=>
+                                                                    <span class="ATM01-button__label">Overview of industries</span>
+                                                                        <span class="ATM01-button__icon">
+                                                                            <span class="ATM01-button__canvas">
+                                                                                <svg width="24" height="24" fill="none" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M13.267 4.209a.75.75 0 0 0-1.034 1.086l6.251 5.955H3.75a.75.75 0 0 0 0 1.5h14.734l-6.251 5.954a.75.75 0 0 0 1.034 1.087l7.42-7.067a.996.996 0 0 0 .3-.58.758.758 0 0 0-.001-.29.995.995 0 0 0-.3-.578l-7.419-7.067Z" fill="currentColor"/></svg>
+                                                                            </span>
+                                                                        </span>
+                                                                </a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div id="sol_by_department" class="tab-pane fade in">
+                                                    <!-- mobile back button / same text as pill 2nd level -->
+                                                    <button class="mobile-back">By Department</button>
+                                                    <div class="row">
+                                                        <div class="megamenu-center-section">
+                                                            <ul class="third-level-list">
+                                                                <li>
+                                                                    <a href="https://www.hyland.com/en/solutions/departments">Departments Overview</a>
+                                                                </li>
+                                                                    <li>
+
+                                                                        <a href="https://www.hyland.com/en/solutions/departments/accounting-finance" tgt="_self" rel="">
+                                                                            <span>Accounting &amp; Finance</span>
+                                                                        </a>
+                                                                    </li>
+                                                                    <li>
+
+                                                                        <a href="https://www.hyland.com/en/solutions/departments/human-resources" tgt="_self" rel="">
+                                                                            <span>Human Resources</span>
+                                                                        </a>
+                                                                    </li>
+                                                                    <li>
+
+                                                                        <a href="https://www.hyland.com/en/solutions/departments/legal" tgt="_self" rel="">
+                                                                            <span>Legal</span>
+                                                                        </a>
+                                                                    </li>
+                                                            </ul>
+                                                        </div>
+                                                        <div class="megamenu-right-section">
+                                                            <h6 class="section-title">Departments</h6>
+                                                            <p>Countless teams and departments have transformed the way they work in accounting, HR, legal and more with Hyland solutions.</p>
+                                                            <img src="https://res.cloudinary.com/hyld/image/upload/f_auto,c_fill,g_auto,w_339,h_339/v1/h2/new/AdobeStock_727920555" srcset="https://res.cloudinary.com/hyld/image/upload/f_auto,c_fill,g_auto,w_439,h_439/v1/h2/new/AdobeStock_727920555 439w, https://res.cloudinary.com/hyld/image/upload/f_auto,c_fill,g_auto,w_878,h_878/v1/h2/new/AdobeStock_727920555 878w, https://res.cloudinary.com/hyld/image/upload/f_auto,c_fill,g_auto,w_1317,h_1317/v1/h2/new/AdobeStock_727920555 1317w" class="img-fluid" alt="A bearded man with glasses is focusing on coding with two computer screens displaying blue and green lines of code against a blurred tech-themed background." loading="lazy" sizes="(max-width: 767px) calc(100vw - 48px),(max-width: 991px) 41vw,(max-width: 1199px) 279px,(max-width: 1439px) 339px,(max-width: 1599px) 386px,439px">
+
+                                                                <a class="ATM01-button ATM01-button--text-link ATM01-button--large" href="https://www.hyland.com/en/solutions/departments" target="_self" rel=>
+                                                                    <span class="ATM01-button__label">Overview of departments</span>
+                                                                        <span class="ATM01-button__icon">
+                                                                            <span class="ATM01-button__canvas">
+                                                                                <svg width="24" height="24" fill="none" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M13.267 4.209a.75.75 0 0 0-1.034 1.086l6.251 5.955H3.75a.75.75 0 0 0 0 1.5h14.734l-6.251 5.954a.75.75 0 0 0 1.034 1.087l7.42-7.067a.996.996 0 0 0 .3-.58.758.758 0 0 0-.001-.29.995.995 0 0 0-.3-.578l-7.419-7.067Z" fill="currentColor"/></svg>
+                                                                            </span>
+                                                                        </span>
+                                                                </a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div id="sol_services" class="tab-pane fade in">
+                                                    <!-- mobile back button / same text as pill 2nd level -->
+                                                    <button class="mobile-back">Services</button>
+                                                    <div class="row">
+                                                        <div class="megamenu-center-section">
+                                                            <ul class="third-level-list">
+                                                                <li>
+                                                                    <a href="https://www.hyland.com/en/solutions/services">Services Overview</a>
+                                                                </li>
+                                                                    <li>
+
+                                                                        <a href="https://www.hyland.com/en/solutions/services/education-services" tgt="_self" rel="">
+                                                                            <span>Education Services</span>
+                                                                        </a>
+                                                                    </li>
+                                                                    <li>
+
+                                                                        <a href="https://www.hyland.com/en/solutions/services/implementation-services" tgt="_self" rel="">
+                                                                            <span>Implementation Services</span>
+                                                                        </a>
+                                                                    </li>
+                                                                    <li>
+
+                                                                        <a href="https://www.hyland.com/en/solutions/services/managed-services" tgt="_self" rel="">
+                                                                            <span>Managed Services</span>
+                                                                        </a>
+                                                                    </li>
+                                                                    <li>
+
+                                                                        <a href="https://www.hyland.com/en/solutions/services/consulting-services" tgt="_self" rel="">
+                                                                            <span>Consulting Services</span>
+                                                                        </a>
+                                                                    </li>
+                                                                    <li>
+
+                                                                        <a href="https://www.hyland.com/en/solutions/services/data-conversion-services" tgt="_self" rel="">
+                                                                            <span>Data Conversion Services</span>
+                                                                        </a>
+                                                                    </li>
+                                                            </ul>
+                                                        </div>
+                                                        <div class="megamenu-right-section">
+                                                            <h6 class="section-title">Services</h6>
+                                                            <p>We are committed to helping you maximize your technology investment so you can best serve your customers.</p>
+                                                            <img src="https://res.cloudinary.com/hyld/image/upload/f_auto,c_fill,g_auto,w_339,h_339/v1/h2/original-stock-photos/implementation-services-source" srcset="https://res.cloudinary.com/hyld/image/upload/f_auto,c_fill,g_auto,w_439,h_439/v1/h2/original-stock-photos/implementation-services-source 439w, https://res.cloudinary.com/hyld/image/upload/f_auto,c_fill,g_auto,w_878,h_878/v1/h2/original-stock-photos/implementation-services-source 878w, https://res.cloudinary.com/hyld/image/upload/f_auto,c_fill,g_auto,w_1317,h_1317/v1/h2/original-stock-photos/implementation-services-source 1317w" class="img-fluid" alt="Two young professionals collaborate at a desktop computer." loading="lazy" sizes="(max-width: 767px) calc(100vw - 48px),(max-width: 991px) 41vw,(max-width: 1199px) 279px,(max-width: 1439px) 339px,(max-width: 1599px) 386px,439px">
+
+                                                                <a class="ATM01-button ATM01-button--text-link ATM01-button--large" href="https://www.hyland.com/en/solutions/services" target="_self" rel=>
+                                                                    <span class="ATM01-button__label">Overview of services</span>
+                                                                        <span class="ATM01-button__icon">
+                                                                            <span class="ATM01-button__canvas">
+                                                                                <svg width="24" height="24" fill="none" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M13.267 4.209a.75.75 0 0 0-1.034 1.086l6.251 5.955H3.75a.75.75 0 0 0 0 1.5h14.734l-6.251 5.954a.75.75 0 0 0 1.034 1.087l7.42-7.067a.996.996 0 0 0 .3-.58.758.758 0 0 0-.001-.29.995.995 0 0 0-.3-.578l-7.419-7.067Z" fill="currentColor"/></svg>
+                                                                            </span>
+                                                                        </span>
+                                                                </a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div id="sol_technical_support" class="tab-pane fade in">
+                                                    <!-- mobile back button / same text as pill 2nd level -->
+                                                    <button class="mobile-back">Technical Support</button>
+                                                        <div class="row default-variant">
+                                                            <div class="default-content">
+                                                                    <h6 class="section-title">Insert your title here</h6>
+                                                                                                                                                                                            </div>
+                                                        </div>
+                                                </div>
+                                                <div id="sol_all_products" class="tab-pane fade in">
+                                                    <!-- mobile back button / same text as pill 2nd level -->
+                                                    <button class="mobile-back">All Products</button>
+                                                </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- close overlay -->
+                            <button class="close-megamenu">
+                                <svg width="20" height="20" fill="none" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="m4.21 4.387.083-.094a1 1 0 0 1 1.32-.083l.094.083L12 10.585l6.293-6.292a1 1 0 1 1 1.414 1.414L13.415 12l6.292 6.293a1 1 0 0 1 .083 1.32l-.083.094a1 1 0 0 1-1.32.083l-.094-.083L12 13.415l-6.293 6.292a1 1 0 0 1-1.414-1.414L10.585 12 4.293 5.707a1 1 0 0 1-.083-1.32l.083-.094-.083.094Z" fill="currentColor"/></svg>
+ Close menu
+                            </button>
+                            <div class="overlay-background"></div>
+                        </div>
+                    </div>
+            </div>
+            <div class="nav-item">
+                <button class="nav-link dropdown-toggle"
+                        aria-expanded="false"
+                        role="tab">
+                    CUSTOMERS
+                </button>
+                    <!-- level 1 overlay  -->
+                    <div class="dropdown-menu megamenu">
+                        <div class="container">
+                            <div class="row">
+                                <div class="megamenu-left-section">
+                                    <!-- mobile back button / same text as nav-item 1st level -->
+                                    <button class="mobile-back">
+                                        CUSTOMERS
+                                    </button>
+                                    <!-- level 2 -->
+                                    <ul class="nav nav-pills nav-stacked">
+                                        <li class="default-opt">
+                                            <a href="https://www.hyland.com/en/customers" class="second-level">
+                                                Customers Overview
+                                            </a>
+                                        </li>
+                                                <li>
+                                                        <a href="https://www.hyland.com/en/customers/case-studies" target="_self" rel="">
+                                                            <span>Case Studies</span>
+                                                        </a>
+                                                </li>
+
+                                    </ul>
+                                </div>
+                                <div class="megamenu-main-section">
+                                    <div class="tab-content">
+                                        <div id="cus_" class="tab-pane fade in">
+                                            <!-- mobile back button / same text as pill 2nd level -->
+                                            <button class="mobile-back">CUSTOMERS</button>
+                                                <div class="row default-variant">
+                                                        <div class="default-image">
+                                                            <img class="ATM0x-image-cloudinary cld-responsive" src="https://res.cloudinary.com/hyld/image/upload/f_auto,c_fill,g_auto,w_247,h_247/v1/h2/resources/events/communitylive-day3" srcset="https://res.cloudinary.com/hyld/image/upload/f_auto,c_fill,g_auto,w_330,h_330/v1/h2/resources/events/communitylive-day3 330w, https://res.cloudinary.com/hyld/image/upload/f_auto,c_fill,g_auto,w_660,h_660/v1/h2/resources/events/communitylive-day3 660w, https://res.cloudinary.com/hyld/image/upload/f_auto,c_fill,g_auto,w_990,h_990/v1/h2/resources/events/communitylive-day3 990w" class="ATM0x-image-cloudinary cld-responsive" alt="Image of discussion at Hyland&#39;s annual user event, CommunityLIVE" loading="lazy" sizes="(max-width: 991px) 41vw,(max-width: 1199px) 197px,(max-width: 1439px) 247px,(max-width: 1599px) 286px,330px">
+                                                        </div>
+                                                    <div class="default-content">
+                                                            <h6 class="section-title">CommunityLIVE 2026</h6>
+                                                        <p>Learn proven strategies, connect with experts, innovate boldly</p>                                                                                                                    <a class="vanilla-module ATM01-button ATM01-button--text-link ATM01-button--medium vanilla-module--mounted" data-component="atoms/ATM01-button" href="https://www.communitylive.com/en" target="_blank">
+                                                                <span class="ATM01-button__label">Register for CommunityLIVE 2026 today</span>
+                                                                <span class="ATM01-button__icon">
+                                                                    <span class="ATM01-button__canvas">
+                                                                        <svg width="24" height="24" fill="none" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M13.267 4.209a.75.75 0 0 0-1.034 1.086l6.251 5.955H3.75a.75.75 0 0 0 0 1.5h14.734l-6.251 5.954a.75.75 0 0 0 1.034 1.087l7.42-7.067a.996.996 0 0 0 .3-.58.758.758 0 0 0-.001-.29.995.995 0 0 0-.3-.578l-7.419-7.067Z" fill="currentColor"/></svg>
+                                                                    </span>
+                                                                </span>
+                                                            </a>
+                                                    </div>
+                                                </div>
+                                        </div>
+                                                <div id="cus_case_studies" class="tab-pane fade in">
+                                                    <!-- mobile back button / same text as pill 2nd level -->
+                                                    <button class="mobile-back">Case Studies</button>
+                                                </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- close overlay -->
+                            <button class="close-megamenu">
+                                <svg width="20" height="20" fill="none" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="m4.21 4.387.083-.094a1 1 0 0 1 1.32-.083l.094.083L12 10.585l6.293-6.292a1 1 0 1 1 1.414 1.414L13.415 12l6.292 6.293a1 1 0 0 1 .083 1.32l-.083.094a1 1 0 0 1-1.32.083l-.094-.083L12 13.415l-6.293 6.292a1 1 0 0 1-1.414-1.414L10.585 12 4.293 5.707a1 1 0 0 1-.083-1.32l.083-.094-.083.094Z" fill="currentColor"/></svg>
+ Close menu
+                            </button>
+                            <div class="overlay-background"></div>
+                        </div>
+                    </div>
+            </div>
+            <div class="nav-item">
+                <button class="nav-link dropdown-toggle"
+                        aria-expanded="false"
+                        role="tab">
+                    PARTNERS
+                </button>
+                    <!-- level 1 overlay  -->
+                    <div class="dropdown-menu megamenu">
+                        <div class="container">
+                            <div class="row">
+                                <div class="megamenu-left-section">
+                                    <!-- mobile back button / same text as nav-item 1st level -->
+                                    <button class="mobile-back">
+                                        PARTNERS
+                                    </button>
+                                    <!-- level 2 -->
+                                    <ul class="nav nav-pills nav-stacked">
+                                        <li class="default-opt">
+                                            <a href="https://www.hyland.com/en/partners" class="second-level">
+                                                Partner Program
+                                            </a>
+                                        </li>
+                                                <li>
+                                                        <a href="https://www.hyland.com/en/resources/partner-application" target="_self" rel="">
+                                                            <span>Become a Partner</span>
+                                                        </a>
+                                                </li>
+                                                <li>
+                                                        <a href="https://www.hyland.com/en/partners/find-partners" target="_self" rel="">
+                                                            <span>Find a Partner</span>
+                                                        </a>
+                                                </li>
+                                                <li>
+                                                        <a href="https://www.hyland.com/en/partners/partner-resources" target="_self" rel="">
+                                                            <span>Partner Resources</span>
+                                                        </a>
+                                                </li>
+
+                                    </ul>
+                                </div>
+                                <div class="megamenu-main-section">
+                                    <div class="tab-content">
+                                        <div id="par_" class="tab-pane fade in">
+                                            <!-- mobile back button / same text as pill 2nd level -->
+                                            <button class="mobile-back">PARTNERS</button>
+                                                <div class="row default-variant">
+                                                        <div class="default-image">
+                                                            <img class="ATM0x-image-cloudinary cld-responsive" src="https://res.cloudinary.com/hyld/image/upload/f_auto,c_fill,g_auto,w_247,h_247/v1/h2/new/AdobeStock_1064084710" srcset="https://res.cloudinary.com/hyld/image/upload/f_auto,c_fill,g_auto,w_330,h_330/v1/h2/new/AdobeStock_1064084710 330w, https://res.cloudinary.com/hyld/image/upload/f_auto,c_fill,g_auto,w_660,h_660/v1/h2/new/AdobeStock_1064084710 660w, https://res.cloudinary.com/hyld/image/upload/f_auto,c_fill,g_auto,w_990,h_990/v1/h2/new/AdobeStock_1064084710 990w" class="ATM0x-image-cloudinary cld-responsive" alt="Two young professionals stand and chat outside their office building; a man in a beige suit and glasses holds a tablet while talking to a woman in a gray blazer holding a hot beverage. The leaves on the trees in the background are orange and red, implying that it&#39;s fall." loading="lazy" sizes="(max-width: 991px) 41vw,(max-width: 1199px) 197px,(max-width: 1439px) 247px,(max-width: 1599px) 286px,330px">
+                                                        </div>
+                                                    <div class="default-content">
+                                                            <h6 class="section-title">Partners</h6>
+                                                        <p>Our exclusive partner programs combine our strengths with yours to create better experiences through content services.</p>                                                                                                                    <a class="vanilla-module ATM01-button ATM01-button--text-link ATM01-button--medium vanilla-module--mounted" data-component="atoms/ATM01-button" href="https://www.hyland.com/en/partners" target="">
+                                                                <span class="ATM01-button__label">Overview of partners</span>
+                                                                <span class="ATM01-button__icon">
+                                                                    <span class="ATM01-button__canvas">
+                                                                        <svg width="24" height="24" fill="none" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M13.267 4.209a.75.75 0 0 0-1.034 1.086l6.251 5.955H3.75a.75.75 0 0 0 0 1.5h14.734l-6.251 5.954a.75.75 0 0 0 1.034 1.087l7.42-7.067a.996.996 0 0 0 .3-.58.758.758 0 0 0-.001-.29.995.995 0 0 0-.3-.578l-7.419-7.067Z" fill="currentColor"/></svg>
+                                                                    </span>
+                                                                </span>
+                                                            </a>
+                                                    </div>
+                                                </div>
+                                        </div>
+                                                <div id="par_become_a_partner" class="tab-pane fade in">
+                                                    <!-- mobile back button / same text as pill 2nd level -->
+                                                    <button class="mobile-back">Become a Partner</button>
+                                                </div>
+                                                <div id="par_find_a_partner" class="tab-pane fade in">
+                                                    <!-- mobile back button / same text as pill 2nd level -->
+                                                    <button class="mobile-back">Find a Partner</button>
+                                                </div>
+                                                <div id="par_partner_resources" class="tab-pane fade in">
+                                                    <!-- mobile back button / same text as pill 2nd level -->
+                                                    <button class="mobile-back">Partner Resources</button>
+                                                </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- close overlay -->
+                            <button class="close-megamenu">
+                                <svg width="20" height="20" fill="none" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="m4.21 4.387.083-.094a1 1 0 0 1 1.32-.083l.094.083L12 10.585l6.293-6.292a1 1 0 1 1 1.414 1.414L13.415 12l6.292 6.293a1 1 0 0 1 .083 1.32l-.083.094a1 1 0 0 1-1.32.083l-.094-.083L12 13.415l-6.293 6.292a1 1 0 0 1-1.414-1.414L10.585 12 4.293 5.707a1 1 0 0 1-.083-1.32l.083-.094-.083.094Z" fill="currentColor"/></svg>
+ Close menu
+                            </button>
+                            <div class="overlay-background"></div>
+                        </div>
+                    </div>
+            </div>
+            <div class="nav-item">
+                <button class="nav-link dropdown-toggle"
+                        aria-expanded="false"
+                        role="tab">
+                    RESOURCES
+                </button>
+                    <!-- level 1 overlay  -->
+                    <div class="dropdown-menu megamenu">
+                        <div class="container">
+                            <div class="row">
+                                <div class="megamenu-left-section">
+                                    <!-- mobile back button / same text as nav-item 1st level -->
+                                    <button class="mobile-back">
+                                        RESOURCES
+                                    </button>
+                                    <!-- level 2 -->
+                                    <ul class="nav nav-pills nav-stacked">
+                                        <li class="default-opt">
+                                            <a href="https://www.hyland.com/en/resources" class="second-level">
+                                                Resources Overview
+                                            </a>
+                                        </li>
+                                                <li>
+                                                        <a href="https://www.hyland.com/en/resources/analyst-reports" target="_self" rel="">
+                                                            <span>Analyst Reports</span>
+                                                        </a>
+                                                </li>
+                                                <li>
+                                                        <a href="https://www.hyland.com/en/resources/articles" target="_self" rel="">
+                                                            <span>Articles</span>
+                                                        </a>
+                                                </li>
+                                                <li>
+                                                        <a href="https://www.hyland.com/en/resources/downloads" target="_self" rel="">
+                                                            <span>Downloads</span>
+                                                        </a>
+                                                </li>
+                                                <li>
+                                                        <a href="https://www.hyland.com/en/resources/events" target="_self" rel="">
+                                                            <span>Events</span>
+                                                        </a>
+                                                </li>
+                                                <li>
+                                                        <a href="https://www.hyland.com/en/resources/product-news" target="_self" rel="">
+                                                            <span>Product Releases</span>
+                                                        </a>
+                                                </li>
+                                                <li>
+                                                        <a href="https://www.hyland.com/en/resources/terminology" target="_self" rel="">
+                                                            <span>Terminology</span>
+                                                        </a>
+                                                </li>
+                                                <li>
+                                                        <a href="https://www.hyland.com/en/resources/resource-center" target="_self" rel="">
+                                                            <span>Resource Center</span>
+                                                        </a>
+                                                </li>
+
+                                    </ul>
+                                </div>
+                                <div class="megamenu-main-section">
+                                    <div class="tab-content">
+                                        <div id="res_" class="tab-pane fade in">
+                                            <!-- mobile back button / same text as pill 2nd level -->
+                                            <button class="mobile-back">RESOURCES</button>
+                                                <div class="row default-variant">
+                                                        <div class="default-image">
+                                                            <img class="ATM0x-image-cloudinary cld-responsive" src="https://res.cloudinary.com/hyld/image/upload/f_auto,c_fill,g_auto,w_247,h_247/v1/h2/articles/AdobeStock_484008983" srcset="https://res.cloudinary.com/hyld/image/upload/f_auto,c_fill,g_auto,w_330,h_330/v1/h2/articles/AdobeStock_484008983 330w, https://res.cloudinary.com/hyld/image/upload/f_auto,c_fill,g_auto,w_660,h_660/v1/h2/articles/AdobeStock_484008983 660w, https://res.cloudinary.com/hyld/image/upload/f_auto,c_fill,g_auto,w_990,h_990/v1/h2/articles/AdobeStock_484008983 990w" class="ATM0x-image-cloudinary cld-responsive" alt="Supervisor briefing and leading a meeting with his colleagues in a modern workplace." loading="lazy" sizes="(max-width: 991px) 41vw,(max-width: 1199px) 197px,(max-width: 1439px) 247px,(max-width: 1599px) 286px,330px">
+                                                        </div>
+                                                    <div class="default-content">
+                                                            <h6 class="section-title">Get monthly insights</h6>
+                                                        <p>Join The Shift newsletter for the latest strategies and expert tips from industry leaders. Discover actionable steps to stay innovative.</p>                                                                                                                    <a class="vanilla-module ATM01-button ATM01-button--text-link ATM01-button--medium vanilla-module--mounted" data-component="atoms/ATM01-button" href="https://www.hyland.com/en/resources/newsletter-signup" target="">
+                                                                <span class="ATM01-button__label">Register now</span>
+                                                                <span class="ATM01-button__icon">
+                                                                    <span class="ATM01-button__canvas">
+                                                                        <svg width="24" height="24" fill="none" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M13.267 4.209a.75.75 0 0 0-1.034 1.086l6.251 5.955H3.75a.75.75 0 0 0 0 1.5h14.734l-6.251 5.954a.75.75 0 0 0 1.034 1.087l7.42-7.067a.996.996 0 0 0 .3-.58.758.758 0 0 0-.001-.29.995.995 0 0 0-.3-.578l-7.419-7.067Z" fill="currentColor"/></svg>
+                                                                    </span>
+                                                                </span>
+                                                            </a>
+                                                    </div>
+                                                </div>
+                                        </div>
+                                                <div id="res_analyst_reports" class="tab-pane fade in">
+                                                    <!-- mobile back button / same text as pill 2nd level -->
+                                                    <button class="mobile-back">Analyst Reports</button>
+                                                </div>
+                                                <div id="res_articles" class="tab-pane fade in">
+                                                    <!-- mobile back button / same text as pill 2nd level -->
+                                                    <button class="mobile-back">Articles</button>
+                                                        <div class="row default-variant">
+                                                            <div class="default-content">
+                                                                    <h6 class="section-title">Articles</h6>
+                                                                                                                                                                                            </div>
+                                                        </div>
+                                                </div>
+                                                <div id="res_downloads" class="tab-pane fade in">
+                                                    <!-- mobile back button / same text as pill 2nd level -->
+                                                    <button class="mobile-back">Downloads</button>
+                                                </div>
+                                                <div id="res_events" class="tab-pane fade in">
+                                                    <!-- mobile back button / same text as pill 2nd level -->
+                                                    <button class="mobile-back">Events</button>
+                                                </div>
+                                                <div id="res_product_news" class="tab-pane fade in">
+                                                    <!-- mobile back button / same text as pill 2nd level -->
+                                                    <button class="mobile-back">Product News</button>
+                                                </div>
+                                                <div id="res_terminology" class="tab-pane fade in">
+                                                    <!-- mobile back button / same text as pill 2nd level -->
+                                                    <button class="mobile-back">Terminology</button>
+                                                </div>
+                                                <div id="res_resource_center" class="tab-pane fade in">
+                                                    <!-- mobile back button / same text as pill 2nd level -->
+                                                    <button class="mobile-back">Resource Center</button>
+                                                </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- close overlay -->
+                            <button class="close-megamenu">
+                                <svg width="20" height="20" fill="none" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="m4.21 4.387.083-.094a1 1 0 0 1 1.32-.083l.094.083L12 10.585l6.293-6.292a1 1 0 1 1 1.414 1.414L13.415 12l6.292 6.293a1 1 0 0 1 .083 1.32l-.083.094a1 1 0 0 1-1.32.083l-.094-.083L12 13.415l-6.293 6.292a1 1 0 0 1-1.414-1.414L10.585 12 4.293 5.707a1 1 0 0 1-.083-1.32l.083-.094-.083.094Z" fill="currentColor"/></svg>
+ Close menu
+                            </button>
+                            <div class="overlay-background"></div>
+                        </div>
+                    </div>
+            </div>
+            <div class="nav-item">
+                <button class="nav-link dropdown-toggle"
+                        aria-expanded="false"
+                        role="tab">
+                    COMPANY
+                </button>
+                    <!-- level 1 overlay  -->
+                    <div class="dropdown-menu megamenu">
+                        <div class="container">
+                            <div class="row">
+                                <div class="megamenu-left-section">
+                                    <!-- mobile back button / same text as nav-item 1st level -->
+                                    <button class="mobile-back">
+                                        COMPANY
+                                    </button>
+                                    <!-- level 2 -->
+                                    <ul class="nav nav-pills nav-stacked">
+                                        <li class="default-opt">
+                                            <a href="https://www.hyland.com/en/company" class="second-level">
+                                                Overview of Hyland
+                                            </a>
+                                        </li>
+                                                <li>
+                                                        <a href="#com_about" class="pill second-level">About</a>
+                                                </li>
+                                                <li>
+                                                        <a href="https://www.hyland.com/en/company/why-hyland" target="_self" rel="">
+                                                            <span>Why Hyland?</span>
+                                                        </a>
+                                                </li>
+                                                <li>
+                                                        <a href="https://www.hyland.com/en/company/newsroom" target="_self" rel="">
+                                                            <span>Newsroom</span>
+                                                        </a>
+                                                </li>
+                                                <li>
+                                                        <a href="https://www.hyland.com/en/company/careers" target="_self" rel="">
+                                                            <span>Careers</span>
+                                                        </a>
+                                                </li>
+
+                                    </ul>
+                                </div>
+                                <div class="megamenu-main-section">
+                                    <div class="tab-content">
+                                        <div id="com_" class="tab-pane fade in">
+                                            <!-- mobile back button / same text as pill 2nd level -->
+                                            <button class="mobile-back">COMPANY</button>
+                                                <div class="row default-variant">
+                                                        <div class="default-image">
+                                                            <img class="ATM0x-image-cloudinary cld-responsive" src="https://res.cloudinary.com/hyld/image/upload/f_auto,c_fill,g_auto,w_247,h_247/v1/h2/new/AdobeStock_1121118448" srcset="https://res.cloudinary.com/hyld/image/upload/f_auto,c_fill,g_auto,w_330,h_330/v1/h2/new/AdobeStock_1121118448 330w, https://res.cloudinary.com/hyld/image/upload/f_auto,c_fill,g_auto,w_660,h_660/v1/h2/new/AdobeStock_1121118448 660w, https://res.cloudinary.com/hyld/image/upload/f_auto,c_fill,g_auto,w_990,h_990/v1/h2/new/AdobeStock_1121118448 990w" class="ATM0x-image-cloudinary cld-responsive" alt="An upward perspective shot of a modern architectural interior, with geometric metal structures across the glass." loading="lazy" sizes="(max-width: 991px) 41vw,(max-width: 1199px) 197px,(max-width: 1439px) 247px,(max-width: 1599px) 286px,330px">
+                                                        </div>
+                                                    <div class="default-content">
+                                                            <h6 class="section-title">Company</h6>
+                                                        <p>Hyland connects your content and systems so you can forge stronger connections with the people who matter most.</p>                                                                                                                    <a class="vanilla-module ATM01-button ATM01-button--text-link ATM01-button--medium vanilla-module--mounted" data-component="atoms/ATM01-button" href="https://www.hyland.com/en/company" target="">
+                                                                <span class="ATM01-button__label">Learn about Hyland</span>
+                                                                <span class="ATM01-button__icon">
+                                                                    <span class="ATM01-button__canvas">
+                                                                        <svg width="24" height="24" fill="none" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M13.267 4.209a.75.75 0 0 0-1.034 1.086l6.251 5.955H3.75a.75.75 0 0 0 0 1.5h14.734l-6.251 5.954a.75.75 0 0 0 1.034 1.087l7.42-7.067a.996.996 0 0 0 .3-.58.758.758 0 0 0-.001-.29.995.995 0 0 0-.3-.578l-7.419-7.067Z" fill="currentColor"/></svg>
+                                                                    </span>
+                                                                </span>
+                                                            </a>
+                                                    </div>
+                                                </div>
+                                        </div>
+                                                <div id="com_about" class="tab-pane fade in">
+                                                    <!-- mobile back button / same text as pill 2nd level -->
+                                                    <button class="mobile-back">About</button>
+                                                    <div class="row">
+                                                        <div class="megamenu-center-section">
+                                                            <ul class="third-level-list">
+                                                                <li>
+                                                                    <a href="https://www.hyland.com/en/company/about">About Overview</a>
+                                                                </li>
+                                                                    <li>
+
+                                                                        <a href="https://www.hyland.com/en/company/about/history" tgt="_self" rel="">
+                                                                            <span>History</span>
+                                                                        </a>
+                                                                    </li>
+                                                                    <li>
+
+                                                                        <a href="https://www.hyland.com/en/company/about/corporate-responsibility" tgt="_self" rel="">
+                                                                            <span>Corporate Responsibility</span>
+                                                                        </a>
+                                                                    </li>
+                                                                    <li>
+
+                                                                        <a href="https://www.hyland.com/en/company/about/acquisitions" tgt="_self" rel="">
+                                                                            <span>Acquisitions</span>
+                                                                        </a>
+                                                                    </li>
+                                                                    <li>
+
+                                                                        <a href="https://www.hyland.com/en/company/about/exec-team" tgt="_self" rel="">
+                                                                            <span>Executive Team</span>
+                                                                        </a>
+                                                                    </li>
+                                                                    <li>
+
+                                                                        <a href="https://www.hyland.com/en/company/about/locations" tgt="_self" rel="">
+                                                                            <span>Locations</span>
+                                                                        </a>
+                                                                    </li>
+                                                                    <li>
+
+                                                                        <a href="https://www.hyland.com/en/company/about/awards-and-accolades" tgt="|Custom" rel="">
+                                                                            <span>Awards and accolades</span>
+                                                                        </a>
+                                                                    </li>
+                                                            </ul>
+                                                        </div>
+                                                        <div class="megamenu-right-section">
+                                                            <h6 class="section-title">Why choose Hyland?</h6>
+                                                            <p>With our modern, open and cloud-native platforms, you can build strong connections and keep evolving.</p>
+                                                            <img src="https://res.cloudinary.com/hyld/image/upload/f_auto,c_fill,g_auto,w_339,h_339/v1/h2/company/about/about-main/AdobeStock_726890036" srcset="https://res.cloudinary.com/hyld/image/upload/f_auto,c_fill,g_auto,w_439,h_439/v1/h2/company/about/about-main/AdobeStock_726890036 439w, https://res.cloudinary.com/hyld/image/upload/f_auto,c_fill,g_auto,w_878,h_878/v1/h2/company/about/about-main/AdobeStock_726890036 878w, https://res.cloudinary.com/hyld/image/upload/f_auto,c_fill,g_auto,w_1317,h_1317/v1/h2/company/about/about-main/AdobeStock_726890036 1317w" class="img-fluid" alt="An African-American woman in a bright yellow blazer is standing in front of a screen displaying data. She gestures as she does a presentation, holding a tablet in her other hand. " loading="lazy" sizes="(max-width: 767px) calc(100vw - 48px),(max-width: 991px) 41vw,(max-width: 1199px) 279px,(max-width: 1439px) 339px,(max-width: 1599px) 386px,439px">
+
+                                                                <a class="ATM01-button ATM01-button--text-link ATM01-button--large" href="https://www.hyland.com/en/company/why-hyland" target="_self" rel=>
+                                                                    <span class="ATM01-button__label">Dig deeper</span>
+                                                                        <span class="ATM01-button__icon">
+                                                                            <span class="ATM01-button__canvas">
+                                                                                <svg width="24" height="24" fill="none" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M13.267 4.209a.75.75 0 0 0-1.034 1.086l6.251 5.955H3.75a.75.75 0 0 0 0 1.5h14.734l-6.251 5.954a.75.75 0 0 0 1.034 1.087l7.42-7.067a.996.996 0 0 0 .3-.58.758.758 0 0 0-.001-.29.995.995 0 0 0-.3-.578l-7.419-7.067Z" fill="currentColor"/></svg>
+                                                                            </span>
+                                                                        </span>
+                                                                </a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div id="com_why_hyland_" class="tab-pane fade in">
+                                                    <!-- mobile back button / same text as pill 2nd level -->
+                                                    <button class="mobile-back">Why Hyland?</button>
+                                                </div>
+                                                <div id="com_newsroom" class="tab-pane fade in">
+                                                    <!-- mobile back button / same text as pill 2nd level -->
+                                                    <button class="mobile-back">Newsroom</button>
+                                                </div>
+                                                <div id="com_careers" class="tab-pane fade in">
+                                                    <!-- mobile back button / same text as pill 2nd level -->
+                                                    <button class="mobile-back">Careers</button>
+                                                </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- close overlay -->
+                            <button class="close-megamenu">
+                                <svg width="20" height="20" fill="none" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="m4.21 4.387.083-.094a1 1 0 0 1 1.32-.083l.094.083L12 10.585l6.293-6.292a1 1 0 1 1 1.414 1.414L13.415 12l6.292 6.293a1 1 0 0 1 .083 1.32l-.083.094a1 1 0 0 1-1.32.083l-.094-.083L12 13.415l-6.293 6.292a1 1 0 0 1-1.414-1.414L10.585 12 4.293 5.707a1 1 0 0 1-.083-1.32l.083-.094-.083.094Z" fill="currentColor"/></svg>
+ Close menu
+                            </button>
+                            <div class="overlay-background"></div>
+                        </div>
+                    </div>
+            </div>
+    </div>
+		<a class="ATM01-button ATM01-button--primary ATM01-button--small ATM01-button--inverse ATM01-button--demo-btn" href="https://www.hyland.com/en/demos/request-demo">
+			<span class="ATM01-button__label">Request a demo</span>
+		</a>
+</div>
+
+
+</div>
+</div>
+    </header>
+    <!-- /#header -->
+    <!-- #content -->
+    <main role="main" id="mainContent">
+        
+
+<section class="module A5-breadcrumbs">
+    <div class="container">
+        <nav aria-label="Breadcrumb">
+            <ol>
+                    <li>
+                            <a href="https://www.hyland.com/en" class="ATM01-button ATM01-button--text-link ATM01-button--small" tabindex="0">
+                                <span class="ATM01-button__label">Home</span>
+                            </a>
+                    </li>
+                    <li>
+                            <a href="https://www.hyland.com/en/solutions" class="ATM01-button ATM01-button--text-link ATM01-button--small" tabindex="0">
+                                <span class="ATM01-button__label">Solutions</span>
+                            </a>
+                    </li>
+                    <li>
+                            <a href="https://www.hyland.com/en/solutions/products" class="ATM01-button ATM01-button--text-link ATM01-button--small" tabindex="0">
+                                <span class="ATM01-button__label">All products</span>
+                            </a>
+                    </li>
+                    <li>
+                            <span class="ATM01-button__label">Hyland Alfresco</span>
+                    </li>
+            </ol>
+        </nav>
+    </div>
+</section>
+
+
+
+
+<section class="module SXA-hero-banner" data-background="dark">
+    
+    <div class="SXA-hero-banner__mask-container">
+		<div class="SXA-hero-banner__mask-media">
+			<div class="SXA-hero-banner__media-background">
+                <div>
+                    
+                    
+                        
+                        
+                        
+                    <img fetchpriority="high" class="ATM0x-image-cloudinary cld-responsive"
+                        srcset="https://res.cloudinary.com/hyld/image/upload/f_auto,c_fill,g_auto,w_792/v1/h2/new/AdobeStock_1015970047 792w, https://res.cloudinary.com/hyld/image/upload/f_auto,c_fill,g_auto,w_1112/v1/h2/new/AdobeStock_1015970047 1112w, https://res.cloudinary.com/hyld/image/upload/f_auto,c_fill,g_auto,w_1380/v1/h2/new/AdobeStock_1015970047 1380w"
+                        sizes="(min-width: 1600px) 636px, (min-width: 1440px) 556px, (min-width: 1200px) 486px, (min-width: 1000px) 396px, (min-width: 780px) 690px, (min-width: 600px) 510px, calc(91.07vw - 18px)"
+                        src="https://res.cloudinary.com/hyld/image/upload/f_auto,dpr_auto,w_auto,q_auto,c_scale/v1/h2/new/AdobeStock_1015970047" title=""
+                        alt="Swirling blue and white light trails form wavy circular patterns against a black background.">
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="container SXA-hero-banner__container">
+        
+        <div class="SXA-hero-banner__content">
+            <h1 class="ATM09-heading global-h1" style="text-transform: uppercase;"> Hyland Alfresco</h1>
+        
+            
+                <div class="ATM02-rich-text">
+                    <p>Intelligently activate processes and content to accelerate the flow of business.</p>
+                </div>
+            
+<div class="MLC01-button-group">
+            
+            
+                <a class="ATM01-button ATM01-button--primary ATM01-button--large ATM01-button--inverse" href="https://www.hyland.com/en/resources/alfresco-community-download" target="_self">
+                    
+                    
+                    <span class="ATM01-button__label">Start your free trial</span>
+                    
+                </a>
+                
+                
+                
+                
+                        <a class="ATM01-button ATM01-button--secondary ATM01-button--large ATM01-button--inverse"
+                        data-component="atoms/ATM01-button" href="https://hub.alfresco.com/" target="_blank"
+                        rel="noreferrer">
+                    
+                        
+                            <span class="ATM01-button__label">Visit the Alfresco Hub</span>
+                            <span class="ATM01-button__icon">
+                                <span class="ATM01-button__canvas">
+                                    <svg width="24" height="24" fill="none" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M11.272 7.25a.75.75 0 0 1 .75-.75h4.728a.75.75 0 0 1 .75.75v4.729a.75.75 0 0 1-1.5 0V9.06l-5.22 5.22a.75.75 0 1 1-1.06-1.061L14.94 8h-2.918a.75.75 0 0 1-.75-.75Z" fill="currentColor"/><path d="M6.157 5.25A3.251 3.251 0 0 1 9.25 3h8.5A3.25 3.25 0 0 1 21 6.25v8.588a3.251 3.251 0 0 1-2 3.001v.136c0 1.05-.53 1.845-1.309 2.344-.75.48-1.717.686-2.693.68h-.002l-4.077-.004H7c-1.157 0-2.164-.362-2.89-1.045-.727-.686-1.11-1.64-1.11-2.7V8.5c0-.865.216-1.683.734-2.296.534-.633 1.31-.954 2.222-.954h.2ZM6 6.75h-.044c-.544 0-.871.179-1.076.421-.22.262-.38.694-.38 1.329v8.75c0 .69.242 1.234.64 1.608.4.377 1.017.637 1.86.637h3.92L15 19.5h.004c.788.004 1.445-.166 1.878-.444.372-.238.582-.55.614-.968H9.25A3.25 3.25 0 0 1 6 14.838V6.75ZM9.25 4.5A1.75 1.75 0 0 0 7.5 6.25v8.588c0 .967.784 1.75 1.75 1.75h8.5a1.75 1.75 0 0 0 1.75-1.75V6.25a1.75 1.75 0 0 0-1.75-1.75h-8.5Z" fill="currentColor"/></svg>
+                                </span>
+                            </span>
+                        
+                    </a>
+                    
+                
+        </div>
+        </div>
+    </div>
+</section>
+
+
+
+<div class="module vanilla-module A4-anchor-links" data-component="organisms/A4-anchor-links">
+	<div class="A4-anchor-links__sticky hide-prev hide-next">
+		<div class="container">
+      <button class="A4-anchor-links__arrow A4-anchor-links__arrow--prev">
+        <svg width="9" height="16" fill="none" viewBox="8 4 7 16" xmlns="http://www.w3.org/2000/svg"><path d="M15.707 4.293a1 1 0 0 1 0 1.414L9.414 12l6.293 6.293a1 1 0 0 1-1.414 1.414l-7-7a1 1 0 0 1 0-1.414l7-7a1 1 0 0 1 1.414 0Z" fill="#555855"/></svg>
+        </svg>
+      </button>
+      <div class="A4-anchor-links__tabs-container">
+        <div class="A4-anchor-links__tabs">
+                <a href="#features" aria-label="Features link" class="tab">
+                  Features
+                </a>
+                <a href="#how" aria-label="How it works link" class="tab">
+                  How it works
+                </a>
+                <a href="#integrations" aria-label="Integrations link" class="tab">
+                  Integrations
+                </a>
+                <a href="#documentation" aria-label="Documentation link" class="tab">
+                  Documentation
+                </a>
+                <a href="#casestudies" aria-label="Case studies link" class="tab">
+                  Case studies
+                </a>
+                <a href="#resources" aria-label="Resources link" class="tab">
+                  Resources
+                </a>
+                <a href="#reviews" aria-label="Reviews link" class="tab">
+                  Reviews
+                </a>
+        </div>
+      </div>
+      <button class="A4-anchor-links__arrow A4-anchor-links__arrow--next">
+        <svg width="9" height="16" fill="none" viewBox="9 4 7 16" xmlns="http://www.w3.org/2000/svg"><path d="M8.293 4.293a1 1 0 0 0 0 1.414L14.586 12l-6.293 6.293a1 1 0 1 0 1.414 1.414l7-7a1 1 0 0 0 0-1.414l-7-7a1 1 0 0 0-1.414 0Z" fill="#555855"/></svg>
+      </button>
+    </div>
+  </div>
+  <div class="A4-anchor-links__content">
+    <section>
+      <span id="features"></span>
+
+
+      <div class="component rich-text scEnabledChrome padding-default">
+	<section class="module SXA-left-align-text container">
+<div class="col-xl-10 px-0">
+<div class="vanilla-module rich-text  ATM02-rich-text" data-component="atoms/">
+<h2>Key features</h2>
+<p>Alfresco delivers an open, scalable, cloud-native content, process and governance management suite. Take a look at some of the key features that make it such a powerful addition to any organization.</p>
+<p>&nbsp;</p>
+</div>
+</div>
+</section>
+<section class="module SXA-content-list container">
+<div class="SXA-content-list__elements">
+<div class="vanilla-module rich-text ATM02-rich-text vanilla-module--mounted" data-component="atoms/ATM02-rich-text">
+<h6>Document management</h6>
+<p>With Alfresco, you can quickly find and access the exact information you're looking for from anywhere on any device using web-based viewing tools.</p>
+</div>
+<div class="vanilla-module rich-text ATM02-rich-text vanilla-module--mounted" data-component="atoms/ATM02-rich-text">
+<h6>Intelligent process management</h6>
+<p>Tightly integrated process and content services capabilities streamline content-centric processes and enable faster, more informed decision making.</p>
+</div>
+<div class="vanilla-module rich-text ATM02-rich-text vanilla-module--mounted" data-component="atoms/ATM02-rich-text">
+<h6>Enterprise collaboration</h6>
+<p>Teams can seamlessly extend the benefits of Microsoft 365 and Google Docs, supercharging productivity with enterprise <a href="https://www.hyland.com/en/platform/collaboration">collaboration tools</a>.</p>
+</div>
+<div class="vanilla-module rich-text ATM02-rich-text vanilla-module--mounted" data-component="atoms/ATM02-rich-text">
+<h6>Information governance</h6>
+<p>Alfresco Governance Services automates the information life cycle with little intervention by users, reducing business risk and strengthening compliance.</p>
+</div>
+<div class="vanilla-module rich-text ATM02-rich-text vanilla-module--mounted" data-component="atoms/ATM02-rich-text">
+<h6>Intelligence and analytics </h6>
+<p>Alfresco delivers a scalable way to automatically enrich content and metadata and providing key insights by automatically extracting valuable information.</p>
+</div>
+<div class="vanilla-module rich-text ATM02-rich-text vanilla-module--mounted" data-component="atoms/ATM02-rich-text">
+<h6>Extend and integrate</h6>
+<p>Built on open standards and APIs, Alfresco is easy to integrate and customize to meet your business needs.</p>
+</div>
+</div>
+</section>
+</div>
+    </section>
+    <section>
+      <span id="how"></span>
+
+
+      <section
+  class="module vanilla-module B12-video container"
+  data-component="organisms/B12-video"
+>
+  <div class="B12-video__container">
+    <div class="B12-video__content">
+      
+      <div class="MLC02-default-header">
+        
+        
+          <div class="ATM02-rich-text">
+            <h3 class="MLC02-default-header__title">How it works</h3>
+            
+                    <div class="vanilla-module rich-text ATM02-rich-text ATM02-rich-text" data-component="atoms/ATM02-rich-text">
+                        <p>Get a quick look into the full scope of tools and control Alfresco can provide your organization.</p>
+                    </div>
+          </div>
+        
+      </div>
+      
+      <div class="B12-video__media">
+        <div class="B12-video__canvas">
+            <div
+            style="display: contents"
+            class="svelte-module"
+            data-component="atoms/ATM05a-video"
+            data-uuid="6qQwSpLecP4ubQ1HrF5afv"
+            data-placeholder_alt=""
+            data-playbutton_text="Play Video"
+          ></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+    </section>
+    <section>
+      <span id="integrations"></span>
+
+
+      
+
+<div class="SXA-promo-extended module container" data-background-color="dark">
+	
+		<header class="MLC02-default-header">
+			<h3 class="ATM09-heading global-h3">Integrations</h3>
+			<div class="ATM02-rich-text">
+					<p></p>
+			</div>
+		</header>
+	
+	<div class="SXA-promo-extended__layout">
+		<div class="SXA-promo-extended__media">
+			<div class="SXA-promo-extended__list">
+				<ul>
+<li>Seamless integration with leading applications</li> 
+<li>Consistent data across all systems</li> 
+<li>Easy configuration to meet your needs</li>
+</ul>
+			</div>
+		</div>
+
+		<div class="SXA-promo-extended__text-content">
+			<div class="ATM02-rich-text">
+				<h4>Alfresco integrations</h4>
+
+<p>Leverage information from your key applications to improve capture and automate processes in Alfresco, keeping data in sync across all systems — empowering better business decisions.</p>
+			</div>
+
+			
+				<div class="vanilla-module MLC01-button-group" data-component="molecules/MLC01-button-group">
+					<a class="ATM01-button ATM01-button--secondary ATM01-button--large ATM01-button--inverse" href="https://www.hyland.com/en/platform/integrations?facet=product%2Balfrescoplatform">View integrations</a>
+					
+						
+					
+				</div>
+			
+		</div>
+	</div>
+</div>
+    </section>
+    <section>
+      <span id="documentation"></span>
+
+
+      
+
+
+
+
+<section class="module B7-resource-documents vanilla-module" data-component="organisms/B7-resource-documents">
+    <div class="container B8-resource-links__container">
+        <header class="MLC02-default-header">
+            <h3 class="MLC02-default-header__title">Documentation<br /></h3>
+        </header><!--<Plain-module-wrapper>--><!--<MLC02.template>-->
+        <div class="B8-resource-links__cards">
+            
+
+
+    <div class="MLC04-resource-card">
+
+
+        <a href="https://support.hyland.com/p/alfresco" class="MLC04-resource-card__card" target="_blank" rel="noreferrer">
+            <div class="MLC04-resource-card__icon-container">
+                <img src="https://www.hyland.com/-/media/Project/Hyland/HylandV2DotCom/images/resources/fluenticons/green/document-text.svg?iar=0" alt="" />
+            </div>
+            <div class="MLC04-resource-card__content-body">
+                <div>
+                    <h4 class="MLC04-resource-card__heading">Alfresco technical documentation</h4>
+
+<p class="MLC04-resource-card__description">
+</p>                </div>
+                <div class="d-flex">
+                    <div class="MLC04-resource-card__link">
+Visit the site                            <svg width="24" height="24" fill="none" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M11.272 7.25a.75.75 0 0 1 .75-.75h4.728a.75.75 0 0 1 .75.75v4.729a.75.75 0 0 1-1.5 0V9.06l-5.22 5.22a.75.75 0 1 1-1.06-1.061L14.94 8h-2.918a.75.75 0 0 1-.75-.75Z" fill="#191F5E"/><path d="M6.157 5.25A3.251 3.251 0 0 1 9.25 3h8.5A3.25 3.25 0 0 1 21 6.25v8.588a3.251 3.251 0 0 1-2 3.001v.136c0 1.05-.53 1.845-1.309 2.344-.75.48-1.717.686-2.693.68h-.002l-4.077-.004H7c-1.157 0-2.164-.362-2.89-1.045-.727-.686-1.11-1.64-1.11-2.7V8.5c0-.865.216-1.683.734-2.296.534-.633 1.31-.954 2.222-.954h.2ZM6 6.75h-.044c-.544 0-.871.179-1.076.421-.22.262-.38.694-.38 1.329v8.75c0 .69.242 1.234.64 1.608.4.377 1.017.637 1.86.637h3.92L15 19.5h.004c.788.004 1.445-.166 1.878-.444.372-.238.582-.55.614-.968H9.25A3.25 3.25 0 0 1 6 14.838V6.75ZM9.25 4.5A1.75 1.75 0 0 0 7.5 6.25v8.588c0 .967.784 1.75 1.75 1.75h8.5a1.75 1.75 0 0 0 1.75-1.75V6.25a1.75 1.75 0 0 0-1.75-1.75h-8.5Z" fill="#191F5E"/></svg>
+                    </div>
+                </div>
+            </div>
+        </a>
+    </div>
+
+
+
+    <div class="MLC04-resource-card">
+
+
+        <a href="https://connect.hyland.com/" class="MLC04-resource-card__card" target="_blank" rel="noreferrer">
+            <div class="MLC04-resource-card__icon-container">
+                <img src="https://www.hyland.com/-/media/Project/Hyland/HylandV2DotCom/images/resources/fluenticons/green/document-text.svg?iar=0" alt="" />
+            </div>
+            <div class="MLC04-resource-card__content-body">
+                <div>
+                    <h4 class="MLC04-resource-card__heading">Let&#39;s connect</h4>
+
+                </div>
+                <div class="d-flex">
+                    <div class="MLC04-resource-card__link">
+Visit Hyland Connect                            <svg width="24" height="24" fill="none" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M11.272 7.25a.75.75 0 0 1 .75-.75h4.728a.75.75 0 0 1 .75.75v4.729a.75.75 0 0 1-1.5 0V9.06l-5.22 5.22a.75.75 0 1 1-1.06-1.061L14.94 8h-2.918a.75.75 0 0 1-.75-.75Z" fill="#191F5E"/><path d="M6.157 5.25A3.251 3.251 0 0 1 9.25 3h8.5A3.25 3.25 0 0 1 21 6.25v8.588a3.251 3.251 0 0 1-2 3.001v.136c0 1.05-.53 1.845-1.309 2.344-.75.48-1.717.686-2.693.68h-.002l-4.077-.004H7c-1.157 0-2.164-.362-2.89-1.045-.727-.686-1.11-1.64-1.11-2.7V8.5c0-.865.216-1.683.734-2.296.534-.633 1.31-.954 2.222-.954h.2ZM6 6.75h-.044c-.544 0-.871.179-1.076.421-.22.262-.38.694-.38 1.329v8.75c0 .69.242 1.234.64 1.608.4.377 1.017.637 1.86.637h3.92L15 19.5h.004c.788.004 1.445-.166 1.878-.444.372-.238.582-.55.614-.968H9.25A3.25 3.25 0 0 1 6 14.838V6.75ZM9.25 4.5A1.75 1.75 0 0 0 7.5 6.25v8.588c0 .967.784 1.75 1.75 1.75h8.5a1.75 1.75 0 0 0 1.75-1.75V6.25a1.75 1.75 0 0 0-1.75-1.75h-8.5Z" fill="#191F5E"/></svg>
+                    </div>
+                </div>
+            </div>
+        </a>
+    </div>
+
+
+
+    <div class="MLC04-resource-card">
+
+
+        <a href="https://community.hyland.com/customer-portal" class="MLC04-resource-card__card" target="_blank" rel="noreferrer">
+            <div class="MLC04-resource-card__icon-container">
+                <img src="https://www.hyland.com/-/media/Project/Hyland/HylandV2DotCom/images/resources/fluenticons/green/document-text.svg?iar=0" alt="" />
+            </div>
+            <div class="MLC04-resource-card__content-body">
+                <div>
+                    <h4 class="MLC04-resource-card__heading">Customer support</h4>
+
+                </div>
+                <div class="d-flex">
+                    <div class="MLC04-resource-card__link">
+Log in to the portal                            <svg width="24" height="24" fill="none" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M11.272 7.25a.75.75 0 0 1 .75-.75h4.728a.75.75 0 0 1 .75.75v4.729a.75.75 0 0 1-1.5 0V9.06l-5.22 5.22a.75.75 0 1 1-1.06-1.061L14.94 8h-2.918a.75.75 0 0 1-.75-.75Z" fill="#191F5E"/><path d="M6.157 5.25A3.251 3.251 0 0 1 9.25 3h8.5A3.25 3.25 0 0 1 21 6.25v8.588a3.251 3.251 0 0 1-2 3.001v.136c0 1.05-.53 1.845-1.309 2.344-.75.48-1.717.686-2.693.68h-.002l-4.077-.004H7c-1.157 0-2.164-.362-2.89-1.045-.727-.686-1.11-1.64-1.11-2.7V8.5c0-.865.216-1.683.734-2.296.534-.633 1.31-.954 2.222-.954h.2ZM6 6.75h-.044c-.544 0-.871.179-1.076.421-.22.262-.38.694-.38 1.329v8.75c0 .69.242 1.234.64 1.608.4.377 1.017.637 1.86.637h3.92L15 19.5h.004c.788.004 1.445-.166 1.878-.444.372-.238.582-.55.614-.968H9.25A3.25 3.25 0 0 1 6 14.838V6.75ZM9.25 4.5A1.75 1.75 0 0 0 7.5 6.25v8.588c0 .967.784 1.75 1.75 1.75h8.5a1.75 1.75 0 0 0 1.75-1.75V6.25a1.75 1.75 0 0 0-1.75-1.75h-8.5Z" fill="#191F5E"/></svg>
+                    </div>
+                </div>
+            </div>
+        </a>
+    </div>
+
+        </div>
+
+    </div>
+</section>
+    </section>
+    <section>
+      <span id="casestudies"></span>
+
+
+      <section class="module B2-card-column-content vanilla-module" data-component="organisms/B2-card-column-content">
+	<div class="container">
+  <div class="MLC02-default-header">
+		
+			<h2 class="global-h3 ATM09-heading">Case studies</h2>
+		
+		
+    </div>
+		<div class="B2-card-column-content__cards">
+				
+
+				
+					<a class="B2-card-column-content__card" href="https://www.hyland.com/en/customers/liberty-mutual">
+				
+							
+								
+							
+							
+							
+							
+							<img
+								loading="lazy"
+								class="ATM0x-image-cloudinary cld-responsive"
+								src="https://res.cloudinary.com/hyld/image/upload/f_auto,c_fill,g_auto,w_400,h_533/v1/h2/customers/case-studies/liberty-mutual-claims-leakage" 
+								alt="Man and woman examine damage to a car after an accident"
+								height="auto"
+								width="100%"
+							>
+					<div class="B2-card-column-content__content">
+						<h6 class="B2-card-column-content__card-heading">Liberty Mutual Insurance </h6>
+					</div>
+
+					
+						<div class="rich-text ATM02-rich-text">
+							
+							<p>Global insurer saves $21 million over five years with assistance from Hyland.</p>
+						</div>
+					
+
+					
+						</a>
+					
+				
+				
+
+				
+					<a class="B2-card-column-content__card" href="https://www.hyland.com/en/customers/rbc-capital-market">
+				
+							
+								
+							
+							
+							
+							
+							<img
+								loading="lazy"
+								class="ATM0x-image-cloudinary cld-responsive"
+								src="https://res.cloudinary.com/hyld/image/upload/f_auto,c_fill,g_auto,w_400,h_533/v1/h2/case-studies/alfresco-platform-case-study-rbc-capital-markets-2880x3840" 
+								alt="Two people sit in a conference room talking and using a laptop."
+								height="auto"
+								width="100%"
+							>
+					<div class="B2-card-column-content__content">
+						<h6 class="B2-card-column-content__card-heading">RBC Capital Markets</h6>
+					</div>
+
+					
+						<div class="rich-text ATM02-rich-text">
+							
+							<p>Leading investment bank modernizes operations with Hyland's Alfresco platform.</p>
+						</div>
+					
+
+					
+						</a>
+					
+				
+				
+
+				
+					<a class="B2-card-column-content__card" href="https://www.hyland.com/en/customers/cisco">
+				
+							
+								
+							
+							
+							
+							
+							<img
+								loading="lazy"
+								class="ATM0x-image-cloudinary cld-responsive"
+								src="https://res.cloudinary.com/hyld/image/upload/f_auto,c_fill,g_auto,w_400,h_533/v1/h2/case-studies/alfresco-platform-case-study-cisco-2880x3840" 
+								alt="People sit in a conference room with glass walls and windows in an office."
+								height="auto"
+								width="100%"
+							>
+					<div class="B2-card-column-content__content">
+						<h6 class="B2-card-column-content__card-heading">Cisco</h6>
+					</div>
+
+					
+						<div class="rich-text ATM02-rich-text">
+							
+							<p>World networking leader runs faster and more efficiently with Hyland Alfresco.</p>
+						</div>
+					
+
+					
+						</a>
+					
+				
+				
+
+				
+					<a class="B2-card-column-content__card" href="https://www.hyland.com/en/customers/trust-bank-singapore">
+				
+							
+								
+							
+							
+							
+							
+							<img
+								loading="lazy"
+								class="ATM0x-image-cloudinary cld-responsive"
+								src="https://res.cloudinary.com/hyld/image/upload/f_auto,c_fill,g_auto,w_400,h_533/v1/h2/customers/case-studies/AdobeStock_238354517" 
+								alt="women_looking_at_tablet"
+								height="auto"
+								width="100%"
+							>
+					<div class="B2-card-column-content__content">
+						<h6 class="B2-card-column-content__card-heading">Trust Bank Singapore</h6>
+					</div>
+
+					
+						<div class="rich-text ATM02-rich-text">
+							
+							<p>Bank reimagines workflows and delivers faster, more intuitive customer experiences with Hyland Alfresco.</p>
+						</div>
+					
+
+					
+						</a>
+					
+				
+			</div><div class="B2-card-column-content__footer">
+			<a class="ATM01-button ATM01-button--text-link ATM01-button--large" href="https://www.hyland.com/en/resources/resource-center?contenttype=775C58C8-CDEC-4044-BF49-741519B944DE">View all case studies
+				
+					<span class="ATM01-button__icon">
+						<span class="ATM01-button__canvas">
+							
+							<svg width="24" height="24" fill="none" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M13.267 4.209a.75.75 0 0 0-1.034 1.086l6.251 5.955H3.75a.75.75 0 0 0 0 1.5h14.734l-6.251 5.954a.75.75 0 0 0 1.034 1.087l7.42-7.067a.996.996 0 0 0 .3-.58.758.758 0 0 0-.001-.29.995.995 0 0 0-.3-.578l-7.419-7.067Z" fill="currentColor"/></svg>
+						
+					</span>
+				</span>
+			
+		</a>
+</div>
+	</div>
+</section>
+    </section>
+    <section>
+      <span id="resources"></span>
+
+
+      
+
+
+
+
+<section class="module B7-resource-documents vanilla-module" data-component="organisms/B7-resource-documents">
+    <div class="container B8-resource-links__container">
+        <header class="MLC02-default-header">
+            <h3 class="MLC02-default-header__title">Resources</h3>
+        </header><!--<Plain-module-wrapper>--><!--<MLC02.template>-->
+        <div class="B8-resource-links__cards">
+            
+
+
+    <div class="MLC04-resource-card">
+
+
+        <a href="https://www.hyland.com/en/resources/downloads/5-drivers-modernizing-ecm" class="MLC04-resource-card__card" target="_self" rel="">
+            <div class="MLC04-resource-card__icon-container">
+                <img src="https://www.hyland.com/-/media/Project/Hyland/HylandV2DotCom/images/resources/fluenticons/green/document-text.svg?iar=0" alt="" />
+            </div>
+            <div class="MLC04-resource-card__content-body">
+                <div>
+                    <h4 class="MLC04-resource-card__heading">Five drivers for modernizing enterprise content management</h4>
+
+                </div>
+                <div class="d-flex">
+                    <div class="MLC04-resource-card__link">
+Download e-book                    </div>
+                </div>
+            </div>
+        </a>
+    </div>
+
+
+
+    <div class="MLC04-resource-card">
+
+
+        <a href="https://www.hyland.com/en/resources/articles/dod-8180-information-governance" class="MLC04-resource-card__card" target="_self" rel="">
+            <div class="MLC04-resource-card__icon-container">
+                <img src="https://www.hyland.com/-/media/Project/Hyland/HylandV2DotCom/images/resources/fluenticons/green/document-text.svg?iar=0" alt="" />
+            </div>
+            <div class="MLC04-resource-card__content-body">
+                <div>
+                    <h4 class="MLC04-resource-card__heading">What DOD 8180 means for information governance</h4>
+
+                </div>
+                <div class="d-flex">
+                    <div class="MLC04-resource-card__link">
+How Hyland can help                    </div>
+                </div>
+            </div>
+        </a>
+    </div>
+
+
+
+    <!-- Missing Resource Item -->
+
+        </div>
+
+    </div>
+</section>
+
+<div class="SXA-promo-extended module container" data-background-color="light">
+	
+	
+	<div class="SXA-promo-extended__layout">
+		<div class="SXA-promo-extended__media">
+			
+			
+
+			
+				
+			
+
+			<img src="https://res.cloudinary.com/hyld/image/upload/f_auto,dpr_auto,c_lfill,g_auto,w_1112,h_1112/v1/h2/resources/analyst-reports/AdobeStock_1207304840?h=1112&amp;iar=0&amp;w=1112" class="ATM0x-image-cloudinary cld-responsive" alt="Businesswoman working on a laptop in an office setting" width="1112" height="1112" style="--img-aspect-ratio: 1;" srcset="https://res.cloudinary.com/hyld/image/upload/f_auto,c_fill,g_auto,w_300,h_300/v1/h2/resources/analyst-reports/AdobeStock_1207304840 300w, https://res.cloudinary.com/hyld/image/upload/f_auto,c_fill,g_auto,w_768,h_768/v1/h2/resources/analyst-reports/AdobeStock_1207304840 768w, https://res.cloudinary.com/hyld/image/upload/f_auto,c_fill,g_auto,w_992,h_992/v1/h2/resources/analyst-reports/AdobeStock_1207304840 992w" sizes="&#40;max-width: 375px&#41; 385w, &#40;max-width: 768px&#41; 140w, &#40;max-width: 1200px&#41; 280w, &#40;max-width: 1600px&#41; 385w, 440w" />
+			
+		</div>
+
+		<div class="SXA-promo-extended__text-content">
+			<div class="ATM02-rich-text">
+				<h4>Forrester Study: The Rise of Content Intelligence &ndash;&nbsp;A New Era of Innovation in ECM</h4>
+				<h5>Insights from the 6th Annual Content Services Pulse Study, 2025 Edition</h5>
+<span>Explore how modern content services solutions unlock content intelligence to streamline workflow, strengthen governance and drive better business outcomes. Get practical insights on AI readiness, content intelligence adoption and workforce transition strategies.<br />
+<br />
+</span>
+			</div>
+			
+				<div class="vanilla-module MLC01-button-group" data-component="molecules/MLC01-button-group">
+					<a class="ATM01-button ATM01-button--secondary ATM01-button--large" href="https://www.hyland.com/en/resources/analyst-reports/forrester-pulse-innovation-ecm">Access the report</a>
+					
+						
+					
+				</div>
+			
+		</div>
+	</div>
+</div>
+    </section>
+    <section>
+      <span id="reviews"></span>
+
+
+      
+<div
+  style="display: contents"
+  class="svelte-module"
+  data-component="organisms/g2"
+  data-product="alfresco"
+  data-heading=""
+  data-copy=""
+>
+</div>
+
+    </section>
+  </div>
+</div><section class="B10-promo-form vanilla-module" data-component="organisms/B10-promo-form" id="formAnchor">
+	<div class="container">
+		<div class="B10-promo-form__wrapper">
+			<div class="B10-promo-form__content" id="promoFormFirstStep">
+				<div class="B10-promo-form__column">
+					<div class="text-cont">
+						<h4 class="ATM09-heading global-h4">Empower your people to deliver their best with Hyland</h4>
+						<button
+							href="#"
+							id="showPromoform"
+							class="ATM01-button ATM01-button--primary ATM01-button--large ATM01-button--inverse"
+						>
+							<span class="ATM01-button__label">
+								Connect with an expert
+							</span>
+						</button>
+					</div>
+				</div>
+			</div>
+
+			
+				<div class="B10-promo-form__content" id="promoFormCont" style="display: none;">
+					<div class="B10-promo-form__column">
+						<div class="text-cont">
+							<h4 class="ATM09-heading global-h4">Get in touch</h4>
+							<div
+								style="display: contents"
+								class="svelte-module"
+								data-component="atoms/ATM0z-marketo"
+								data-formid="2390"
+								data-success_url=""
+							></div>
+						</div>
+					</div>
+				</div>
+
+				<div class="B10-promo-form__content" id="promoFormThankYou" style="display: none;">
+					<div class="B10-promo-form__column">
+						<div class="text-cont"><h4>Thank you!</h4>
+							<p>
+									
+    <p id="promoFormThankYouConnectAnExpert">We have received your message and will be in contact shortly.</p>
+
+								</p>
+							
+					</div>
+				</div>
+			
+
+		</div>
+
+				<div class="B10-promo-form__content" id="promoFormThankYou" style="display: none;">
+					<div class="B10-promo-form__column">
+						<div class="text-cont"><h4>Thank you!</h4>
+							<p>
+									
+    <p id="promoFormThankYouConnectAnExpert">We have received your message and will be in contact shortly.</p>
+
+								</p>
+							
+					</div>
+				</div>
+
+</div>
+</section>
+    </main>
+    <!-- /#content -->
+    <!-- #footer -->
+    <footer id="A2-Footer">
+        
+<section id="section-top">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12 col-md-9 col-lg-2">
+        <div class="a2-footer__logo">
+        <svg width="176" height="21" viewbox="0 0 176 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <g clip-path="url(#clip0_1995_18803)">
+    <path d="M21.2564 0.0908294V19.9627H16.6349V11.7699H4.62147V19.9627H0V0.0908294H4.62147V7.8407H16.6335V0.0908294H21.2564ZM45.1631 0.0908294H50.5883L40.7059 11.7171V19.9656H36.0844V11.7171L26.1771 0.0908294H31.7401L38.4663 7.9507L45.1631 0.0908294ZM55.5045 0.0908294H60.126V16.0056H73.5504V19.9627H55.5045V0.0908294ZM93.6393 0.0908294L103.522 19.9627H98.5116L96.4099 15.7006H85.5037L83.402 19.9627H78.4755L88.4077 0.0908294H93.6393ZM87.3825 11.8828H94.5516L90.9803 4.63163L87.3825 11.8828ZM129.391 19.9642H125.322L112.922 5.98683V19.9642H108.438V0.0908294H113.115L124.906 13.4038V0.0908294H129.389V19.9627L129.391 19.9642ZM137.217 0.0834961H147.576C154.679 0.0834961 159.133 3.98336 159.133 10.0818C159.133 16.1802 154.676 20.08 147.576 20.08H137.217V0.0834961ZM147.465 16.0775C151.775 16.0775 154.292 13.7103 154.292 10.0803C154.292 6.4503 151.777 4.0831 147.437 4.0831H141.715V16.0804H147.465V16.0775ZM166.91 1.0119V4.71376H165.835V1.0119H163.825V0.0908294H168.912V1.01043H166.91V1.0119ZM172.518 4.7123L170.955 1.15416V4.7123H169.905V0.0908294H171.528L172.968 3.39816L174.404 0.0908294H176V4.7123H174.957V1.15416L173.386 4.7123H172.518Z" fill="white"></path>
+  </g>
+  <defs>
+    <clippath id="clip0_1995_18803">
+      <rect width="176" height="19.9951" fill="white" transform="translate(0 0.0834961)"></rect>
+    </clippath>
+  </defs>
+</svg>
+        </div>
+        <p>
+          Be more informed, empowered and connected through every interaction
+          and in every relationship with everyone you serve.
+        </p>
+        <a href="https://www.hyland.com/en/contact-us" class="ATM01-button ATM01-button--primary ATM01-button--large ATM01-button--inverse" style="margin-bottom: 24px;">
+          <span class="ATM01-button__label">Contact us</span>
+        </a>
+      </div>
+      <div class="col-6 col-md-4 col-lg-2">
+        <p class="section-title">Why Hyland</p>
+        <ul>
+          <li>
+            <a href="https://www.hyland.com/en/customers/case-studies" class="ATM01-button ATM01-button--inverse ATM01-button-- ATM01-button--text-link ATM01-button--small">
+              <span class="ATM01-button__label">Case Studies</span>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.hyland.com/en/resources/analyst-reports" class="ATM01-button ATM01-button--inverse ATM01-button-- ATM01-button--text-link ATM01-button--small">
+              <span class="ATM01-button__label">Analyst Reports</span>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.hyland.com/en/resources/articles" class="ATM01-button ATM01-button--inverse ATM01-button-- ATM01-button--text-link ATM01-button--small">
+              <span class="ATM01-button__label">Insights</span>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.hyland.com/en/platform/integrations" class="ATM01-button ATM01-button--inverse ATM01-button-- ATM01-button--text-link ATM01-button--small">
+              <span class="ATM01-button__label">Integrations</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="col-6 col-md-4 col-lg-2">
+        <p class="section-title">Discover &amp; Learn</p>
+        <ul>
+          <li>
+            <a href="https://www.hyland.com/en/resources/resource-center" class="ATM01-button ATM01-button--inverse ATM01-button-- ATM01-button--text-link ATM01-button--small">
+              <span class="ATM01-button__label">Resource Center</span>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.hyland.com/en/resources/terminology" class="ATM01-button ATM01-button--inverse ATM01-button-- ATM01-button--text-link ATM01-button--small">
+              <span class="ATM01-button__label">Terminology</span>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.hyland.com/en/resources/downloads" class="ATM01-button ATM01-button--inverse ATM01-button-- ATM01-button--text-link ATM01-button--small">
+              <span class="ATM01-button__label">Downloads</span>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.hyland.com/en/resources/product-news" class="ATM01-button ATM01-button--inverse ATM01-button-- ATM01-button--text-link ATM01-button--small">
+              <span class="ATM01-button__label">Product Updates</span>
+            </a>
+          </li>
+          <li>
+            <a href="/en/search/all-results" class="ATM01-button ATM01-button--inverse ATM01-button-- ATM01-button--text-link ATM01-button--small">
+              <span class="ATM01-button__label">All Pages</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="col-6 col-md-4 col-lg-2">
+        <p class="section-title">Hyland Services</p>
+        <ul>
+          <li>
+            <a href="https://www.hyland.com/en/solutions/services/implementation-services" class="ATM01-button ATM01-button--inverse ATM01-button-- ATM01-button--text-link ATM01-button--small">
+              <span class="ATM01-button__label">Implementation</span>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.hyland.com/en/solutions/services/managed-services" class="ATM01-button ATM01-button--inverse ATM01-button-- ATM01-button--text-link ATM01-button--small">
+              <span class="ATM01-button__label">Managed</span>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.hyland.com/en/solutions/services/consulting-services" class="ATM01-button ATM01-button--inverse ATM01-button-- ATM01-button--text-link ATM01-button--small">
+              <span class="ATM01-button__label">Consulting</span>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.hyland.com/en/solutions/services/data-conversion-services" class="ATM01-button ATM01-button--inverse ATM01-button-- ATM01-button--text-link ATM01-button--small">
+              <span class="ATM01-button__label">Data Conversion</span>
+            </a>
+          </li>
+          <li>
+            <a href="/sitecore/service/notfound.aspx?item=web%3a%7b9A6E91CC-A981-43F5-9FCD-2536DCC7AECB%7d%40en" class="ATM01-button ATM01-button--inverse ATM01-button-- ATM01-button--text-link ATM01-button--small">
+              <span class="ATM01-button__label">Document Imaging</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="col-6 col-md-4 col-lg-2">
+        <p class="section-title">About Hyland</p>
+        <ul>
+          <li>
+            <a href="https://www.hyland.com/en/company/careers" class="ATM01-button ATM01-button--inverse ATM01-button-- ATM01-button--text-link ATM01-button--small">
+              <span class="ATM01-button__label">Careers</span>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.hyland.com/en/company/about" class="ATM01-button ATM01-button--inverse ATM01-button-- ATM01-button--text-link ATM01-button--small">
+              <span class="ATM01-button__label">About</span>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.hyland.com/en/partners" class="ATM01-button ATM01-button--inverse ATM01-button-- ATM01-button--text-link ATM01-button--small">
+              <span class="ATM01-button__label">Partners</span>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.hyland.com/en/company/about/corporate-responsibility" class="ATM01-button ATM01-button--inverse ATM01-button-- ATM01-button--text-link ATM01-button--small">
+              <span class="ATM01-button__label">Corporate Responsibility</span>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.hyland.com/en/company/newsroom" class="ATM01-button ATM01-button--inverse ATM01-button-- ATM01-button--text-link ATM01-button--small">
+              <span class="ATM01-button__label">Newsroom</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="col-12 col-md-4 col-lg-2">
+        <p class="section-title">Connect</p>
+        <ul>
+          <li>
+            <a href="https://community.hyland.com" target="_blank" class="ATM01-button ATM01-button--inverse ATM01-button-- ATM01-button--text-link ATM01-button--small">
+              <span class="ATM01-button__label">Community</span>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.hyland.com/en/resources/events" class="ATM01-button ATM01-button--inverse ATM01-button-- ATM01-button--text-link ATM01-button--small">
+              <span class="ATM01-button__label">Events</span>
+            </a>
+          </li>
+          <li>
+            <a href="https://university.hyland.com" target="_blank" class="ATM01-button ATM01-button--inverse ATM01-button-- ATM01-button--text-link ATM01-button--small">
+              <span class="ATM01-button__label">Training</span>
+            </a>
+          </li>
+          <li>
+            <a href="https://support.hyland.com" target="_blank" class="ATM01-button ATM01-button--inverse ATM01-button-- ATM01-button--text-link ATM01-button--small">
+              <span class="ATM01-button__label">Documentation</span>
+            </a>
+          </li>
+          <li>
+            <a href="https://community.hyland.com/customer-portal" target="_blank" class="ATM01-button ATM01-button--inverse ATM01-button-- ATM01-button--text-link ATM01-button--small">
+              <span class="ATM01-button__label">Tech Support</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="a2-footer__newsletter-social" style="display: flex; justify-content: space-between;">
+        <div class="a2-footer__newsletter">
+          <p style="opacity: 1;">Start your shift to a new era of content innovation.</p>
+        <a href="https://www.hyland.com/en/resources/newsletter-signup" class="ATM01-button ATM01-button--inverse ATM01-button-- ATM01-button--secondary ATM01-button--large btn-block" style="background-color: transparent; color: white; border-color: white;">
+            <span class="ATM01-button__label">Get monthly insights</span>
+          </a>
+        </div>
+        <div class="social-networks" style="padding-top: 0;">
+          <p class="section-title">Follow Us</p>
+          <div>
+            <a href="https://www.facebook.com/HylandSoftware" aria-label="link to facebook" target="_blank" rel="noreferrer">
+              <svg width="11" height="21" viewbox="0 0 11 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M10.0931 11.5835L10.6429 7.98975H7.14764V5.646C7.14764 4.63037 7.61891 3.69287 9.18982 3.69287H10.8V0.606934C10.8 0.606934 9.34691 0.333496 7.97236 0.333496C5.10545 0.333496 3.22036 2.09131 3.22036 5.21631V7.98975H0V11.5835H3.22036V20.3335H7.14764V11.5835H10.0931Z" fill="white"></path>
+              </svg>
+            </a>
+            <a href="https://twitter.com/hyland" aria-label="link to twitter" target="_blank" rel="noreferrer">
+              <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewbox="0,0,256,256" width="20px" height="20px"><g fill="#ffffff" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><g transform="scale(10.66667,10.66667)"><path d="M2.36719,3l7.0957,10.14063l-6.72266,7.85938h2.64063l5.26367,-6.16992l4.31641,6.16992h6.91016l-7.42187,-10.625l6.29102,-7.375h-2.59961l-4.86914,5.6875l-3.97266,-5.6875zM6.20703,5h2.04883l9.77734,14h-2.03125z"></path></g></g></svg>
+            </a>
+            <a href="https://www.instagram.com/hylandgram" aria-label="link to instagram" target="_blank" rel="noreferrer">
+              <svg width="18" height="19" viewbox="0 0 18 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M9.02009 4.69287C6.44866 4.69287 4.39955 6.78216 4.39955 9.31341C4.39955 11.8848 6.44866 13.9339 9.02009 13.9339C11.5513 13.9339 13.6406 11.8848 13.6406 9.31341C13.6406 6.78216 11.5513 4.69287 9.02009 4.69287ZM9.02009 12.3268C7.37277 12.3268 6.0067 11.0009 6.0067 9.31341C6.0067 7.66609 7.33259 6.34019 9.02009 6.34019C10.6674 6.34019 11.9933 7.66609 11.9933 9.31341C11.9933 11.0009 10.6674 12.3268 9.02009 12.3268ZM14.8862 4.53216C14.8862 3.92948 14.404 3.44734 13.8013 3.44734C13.1987 3.44734 12.7165 3.92948 12.7165 4.53216C12.7165 5.13484 13.1987 5.61698 13.8013 5.61698C14.404 5.61698 14.8862 5.13484 14.8862 4.53216ZM17.9397 5.61698C17.8594 4.17055 17.5379 2.88484 16.4933 1.84019C15.4487 0.79555 14.1629 0.474121 12.7165 0.393764C11.2299 0.313407 6.77009 0.313407 5.28348 0.393764C3.83705 0.474121 2.59152 0.79555 1.5067 1.84019C0.462054 2.88484 0.140625 4.17055 0.0602679 5.61698C-0.0200893 7.10359 -0.0200893 11.5634 0.0602679 13.05C0.140625 14.4964 0.462054 15.742 1.5067 16.8268C2.59152 17.8714 3.83705 18.1929 5.28348 18.2732C6.77009 18.3536 11.2299 18.3536 12.7165 18.2732C14.1629 18.1929 15.4487 17.8714 16.4933 16.8268C17.5379 15.742 17.8594 14.4964 17.9397 13.05C18.0201 11.5634 18.0201 7.10359 17.9397 5.61698ZM16.0112 14.617C15.7299 15.4206 15.0871 16.0232 14.3237 16.3447C13.1183 16.8268 10.3058 16.7063 9.02009 16.7063C7.6942 16.7063 4.8817 16.8268 3.71652 16.3447C2.91295 16.0232 2.31027 15.4206 1.98884 14.617C1.5067 13.4518 1.62723 10.6393 1.62723 9.31341C1.62723 8.02769 1.5067 5.21519 1.98884 4.00984C2.31027 3.24644 2.91295 2.64376 3.71652 2.32234C4.8817 1.84019 7.6942 1.96073 9.02009 1.96073C10.3058 1.96073 13.1183 1.84019 14.3237 2.32234C15.0871 2.60359 15.6897 3.24644 16.0112 4.00984C16.4933 5.21519 16.3728 8.02769 16.3728 9.31341C16.3728 10.6393 16.4933 13.4518 16.0112 14.617Z" fill="white"></path>
+              </svg>
+            </a>
+            <a href="https://www.linkedin.com/company/hyland-software/" aria-label="link to linkedin" target="_blank" rel="noreferrer">
+              <svg width="16" height="17" viewbox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M3.57143 16.3335V5.63104H0.25V16.3335H3.57143ZM1.89286 4.19927C2.96429 4.19927 3.82143 3.30441 3.82143 2.23059C3.82143 1.19256 2.96429 0.333496 1.89286 0.333496C0.857143 0.333496 0 1.19256 0 2.23059C0 3.30441 0.857143 4.19927 1.89286 4.19927ZM15.9643 16.3335H16V10.4633C16 7.59972 15.3571 5.38048 12 5.38048C10.3929 5.38048 9.32143 6.27533 8.85714 7.0986H8.82143V5.63104H5.64286V16.3335H8.96429V11.036C8.96429 9.63998 9.21429 8.3156 10.9286 8.3156C12.6429 8.3156 12.6786 9.89054 12.6786 11.1433V16.3335H15.9643Z" fill="white"></path>
+              </svg>
+            </a>
+            <a href="https://www.youtube.com/user/HylandSoftware" aria-label="link to youtube" target="_blank" rel="noreferrer">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24">
+                <path fill="#fff" d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10.615 12.816v-8l8 3.993-8 4.007z"></path>
+              </svg>
+            </a>
+          </div>
+        </div>
+    </div>
+  </div>
+</section>
+<div class="spacer">&nbsp;</div>
+<section id="section-bottom">
+  <div class="container">
+    <div class="row justify-content-lg-center">
+      <div class="col-12">
+        <p>
+          &copy;2026 Hyland. All rights reserved.
+        </p>
+        <p>
+          Hyland, the H design, and Hyland product names are registered and/or unregistered trademarks of Hyland and its affiliates in the United States and other countries.
+        </p>
+        <ul id="bottom-menu">
+          <li>
+            <a href="https://www.hyland.com/en/legal/privacy-policies" class="ATM01-button ATM01-button--inverse ATM01-button-- ATM01-button--text-link ATM01-button--small">
+              <span class="ATM01-button__label">Privacy</span>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.hyland.com/en/legal/privacy-policies/cookie-policy" class="ATM01-button ATM01-button--inverse ATM01-button-- ATM01-button--text-link ATM01-button--small">
+              <span class="ATM01-button__label">Cookie Policy</span>
+            </a>
+          </li>
+          <li>
+            <a href="##"" class="ATM01-button ATM01-button--inverse ATM01-button-- ATM01-button--text-link ATM01-button--small ot-sdk-show-settings">
+              <span class="ATM01-button__label">Manage Cookies</span>
+            </a>
+          </li>
+         <li>
+            <a href="https://www.hyland.com/en/legal/do-not-sell-share-personal-info" class="ATM01-button ATM01-button--inverse ATM01-button-- ATM01-button--text-link ATM01-button--small">
+              <span class="ATM01-button__label">Do Not Sell or Share My Personal Information</span>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.hyland.com/en/legal/terms-of-use" class="ATM01-button ATM01-button--inverse ATM01-button-- ATM01-button--text-link ATM01-button--small">
+              <span class="ATM01-button__label">Terms of Use</span></a>
+          </li>
+          <li>
+          <a href="https://www.hyland.com/en/legal/hyland-trust-center" class="ATM01-button ATM01-button--inverse ATM01-button-- ATM01-button--text-link ATM01-button--small">
+              <span class="ATM01-button__label">Security and Compliance</span></a>
+          </li>
+          <li>
+            <a href="https://www.hyland.com/en/legal" class="ATM01-button ATM01-button--inverse ATM01-button-- ATM01-button--text-link ATM01-button--small">
+              <span class="ATM01-button__label">Legal and Compliance</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+    </footer>
+    <!-- /#footer -->
+
+    
+        <!-- /#wrapper -->
+
+    <script type="text/javascript" defer src="https://play.vidyard.com/embed/v4.js"></script>
+
+<script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'9cd62cbede15311f',t:'MTc3MTAwNTA5Ng=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+</html>

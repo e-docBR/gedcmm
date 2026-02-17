@@ -1,0 +1,400 @@
+/* ==================================================================
+   e-docBR Custom Theme for Alfresco Share
+   Customização completa da identidade visual
+   ================================================================== */
+
+/* ============ Variáveis de Cores e-docBR ============ */
+:root {
+    --edocbr-blue-primary: #1B4F8C;
+    --edocbr-red-primary: #E30613;
+    --edocbr-navy: #0A2647;
+    --edocbr-teal: #205072;
+    --edocbr-white: #FFFFFF;
+    --edocbr-light-bg: #ECF0F1;
+    --alfresco-blue: #00A3E0;
+}
+
+/* ============ Login Page Customization ============ */
+
+/* Substituir fundo laranja por gradiente e-docBR */
+body.sticky-wrapper {
+    background: linear-gradient(135deg, var(--edocbr-blue-primary) 0%, var(--edocbr-navy) 100%) !important;
+}
+
+/* Login card */
+.login-form,
+.theme-bg-color-3 {
+    background: var(--edocbr-white) !important;
+    box-shadow: 0 20px 60px rgba(0,0,0,0.3) !important;
+    border-radius: 20px !important;
+}
+
+/* Botão de login */
+.alfresco-buttons-AlfButton--call-to-action,
+.login-button,
+input[type="submit"] {
+    background-color: var(--edocbr-red-primary) !important;
+    border: none !important;
+    color: var(--edocbr-white) !important;
+    font-weight: 600 !important;
+    border-radius: 50px !important;
+    padding: 12px 30px !important;
+    transition: all 0.3s ease !important;
+}
+
+.alfresco-buttons-AlfButton--call-to-action:hover,
+.login-button:hover,
+input[type="submit"]:hover {
+    background-color: #C00512 !important;
+    transform: translateY(-2px) !important;
+    box-shadow: 0 8px 25px rgba(227, 6, 19, 0.4) !important;
+}
+
+/* Campos de input */
+.login-form input[type="text"],
+.login-form input[type="password"] {
+    border: 2px solid #E0E0E0 !important;
+    border-radius: 8px !important;
+    padding: 12px !important;
+    transition: border-color 0.3s ease !important;
+}
+
+.login-form input[type="text"]:focus,
+.login-form input[type="password"]:focus {
+    border-color: var(--edocbr-blue-primary) !important;
+    outline: none !important;
+    box-shadow: 0 0 0 3px rgba(27, 79, 140, 0.1) !important;
+}
+
+/* Labels */
+.login-form label {
+    color: var(--edocbr-navy) !important;
+    font-weight: 500 !important;
+}
+
+/* ============ Header Customization ============ */
+
+/* Header principal */
+.alfresco-header-Header,
+.alf-header,
+.share-header-title {
+    background: linear-gradient(90deg, var(--edocbr-blue-primary) 0%, var(--edocbr-teal) 100%) !important;
+    border-bottom: 3px solid var(--edocbr-red-primary) !important;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1) !important;
+}
+
+/* Logo no header - ocultar Alfresco padrão e substituir */
+.alfresco-logo,
+.theme-company-logo {
+    background: url('/share/res/components/images/edocbr-logo-white.png') no-repeat center !important;
+    background-size: contain !important;
+    width: 250px !important;
+    height: 60px !important;
+}
+
+.alfresco-logo img,
+.theme-company-logo img {
+    display: none !important;
+}
+
+/* Adicionar logo e-docBR */
+.alfresco-logo::before {
+    content: 'e-docBR GEDCMM' !important;
+    color: var(--edocbr-white) !important;
+    font-size: 24px !important;
+    font-weight: 700 !important;
+    letter-spacing: -0.5px !important;
+}
+
+/* Menu items no header */
+.alfresco-header-AlfMenuBar .alfresco-menus-AlfMenuBarItem,
+.alfresco-navigation-NavigationBar .navigation-item {
+    color: var(--edocbr-white) !important;
+}
+
+.alfresco-header-AlfMenuBar .alfresco-menus-AlfMenuBarItem:hover,
+.alfresco-navigation-NavigationBar .navigation-item:hover {
+    background-color: rgba(255, 255, 255, 0.15) !important;
+    color: var(--edocbr-white) !important;
+}
+
+/* ============ Sidebar e Navigation ============ */
+
+.alfresco-layout-LeftAndRight .sidebar,
+.navigation-panel {
+    background-color: var(--edocbr-light-bg) !important;
+    border-right: 1px solid #D0D0D0 !important;
+}
+
+.navigation-item.selected,
+.navigation-item.highlighted {
+    background-color: var(--edocbr-blue-primary) !important;
+    color: var(--edocbr-white) !important;
+    border-left: 4px solid var(--edocbr-red-primary) !important;
+}
+
+/* ============ Botões e Ações ============ */
+
+/* Botões primários */
+.alfresco-buttons-AlfButton--primary,
+.primary-button,
+button.primary {
+    background-color: var(--edocbr-blue-primary) !important;
+    color: var(--edocbr-white) !important;
+    border: none !important;
+    border-radius: 6px !important;
+    padding: 10px 20px !important;
+    font-weight: 600 !important;
+    transition: all 0.3s ease !important;
+}
+
+.alfresco-buttons-AlfButton--primary:hover,
+.primary-button:hover,
+button.primary:hover {
+    background-color: var(--edocbr-navy) !important;
+    transform: translateY(-1px) !important;
+    box-shadow: 0 4px 12px rgba(27, 79, 140, 0.3) !important;
+}
+
+/* Botões secundários */
+.alfresco-buttons-AlfButton--secondary,
+.secondary-button {
+    background-color: transparent !important;
+    color: var(--edocbr-blue-primary) !important;
+    border: 2px solid var(--edocbr-blue-primary) !important;
+    border-radius: 6px !important;
+    padding: 10px 20px !important;
+    font-weight: 600 !important;
+}
+
+.alfresco-buttons-AlfButton--secondary:hover,
+.secondary-button:hover {
+    background-color: var(--edocbr-blue-primary) !important;
+    color: var(--edocbr-white) !important;
+}
+
+/* Botão de ação call-to-action (vermelho) */
+.alfresco-buttons-AlfButton--cta,
+.cta-button {
+    background-color: var(--edocbr-red-primary) !important;
+    color: var(--edocbr-white) !important;
+    border: none !important;
+    border-radius: 6px !important;
+}
+
+/* ============ Cards e Painéis ============ */
+
+.alfresco-layout-VerticalWidgets,
+.document-list,
+.dashlet {
+    background-color: var(--edocbr-white) !important;
+    border: 1px solid #E0E0E0 !important;
+    border-radius: 12px !important;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05) !important;
+}
+
+.dashlet .title {
+    background: linear-gradient(90deg, var(--edocbr-blue-primary), var(--edocbr-teal)) !important;
+    color: var(--edocbr-white) !important;
+    border-radius: 12px 12px 0 0 !important;
+    padding: 15px 20px !important;
+    font-weight: 600 !important;
+}
+
+/* ============ Document List ============ */
+
+.alfresco-documentlibrary-views-layouts-Row:hover,
+.document-item:hover {
+    background-color: rgba(27, 79, 140, 0.05) !important;
+}
+
+.alfresco-documentlibrary-views-layouts-Row.selected,
+.document-item.selected {
+    background-color: rgba(27, 79, 140, 0.1) !important;
+    border-left: 4px solid var(--edocbr-red-primary) !important;
+}
+
+/* ============ Footer ============ */
+
+.sticky-footer,
+.alfresco-footer-Footer {
+    background-color: var(--edocbr-navy) !important;
+    color: var(--edocbr-white) !important;
+    padding: 20px !important;
+    text-align: center !important;
+}
+
+.sticky-footer::before {
+    content: '© 2024-2026 e-docBR - Gestão Eletrônica de Documentos' !important;
+    display: block !important;
+    margin-bottom: 10px !important;
+    font-size: 14px !important;
+    opacity: 0.8 !important;
+}
+
+.sticky-footer .copyright {
+    display: none !important;
+}
+
+/* ============ Links ============ */
+
+a,
+.alfresco-navigation-Link {
+    color: var(--edocbr-blue-primary) !important;
+    text-decoration: none !important;
+    transition: color 0.3s ease !important;
+}
+
+a:hover,
+.alfresco-navigation-Link:hover {
+    color: var(--edocbr-red-primary) !important;
+    text-decoration: underline !important;
+}
+
+/* ============ Progress Bars e Loading ============ */
+
+.alfresco-html-Heading,
+.page-title {
+    color: var(--edocbr-navy) !important;
+    font-weight: 700 !important;
+}
+
+.progress-bar,
+.upload-progress {
+    background-color: var(--edocbr-blue-primary) !important;
+}
+
+/* ============ Tooltips e Popups ============ */
+
+.dijitTooltip,
+.alfresco-dialogs-AlfDialog {
+    border: 2px solid var(--edocbr-blue-primary) !important;
+    border-radius: 8px !important;
+}
+
+.dijitTooltip .dijitTooltipContainer {
+    background: var(--edocbr-navy) !important;
+    color: var(--edocbr-white) !important;
+}
+
+/* ============ Status Indicators ============ */
+
+.status-indicator.success,
+.workflow-status.approved {
+    color: #27AE60 !important;
+}
+
+.status-indicator.warning,
+.workflow-status.pending {
+    color: #F39C12 !important;
+}
+
+.status-indicator.error,
+.workflow-status.rejected {
+    color: var(--edocbr-red-primary) !important;
+}
+
+/* ============ Badges e Tags ============ */
+
+.badge,
+.tag,
+.category-tag {
+    background-color: var(--edocbr-blue-primary) !important;
+    color: var(--edocbr-white) !important;
+    padding: 4px 12px !important;
+    border-radius: 12px !important;
+    font-size: 12px !important;
+    font-weight: 600 !important;
+}
+
+/* ============ Welcome Page Customization ============ */
+
+.welcome-panel h1,
+.welcome-title {
+    color: var(--edocbr-blue-primary) !important;
+    font-size: 32px !important;
+    font-weight: 700 !important;
+}
+
+.welcome-panel h2 {
+    color: var(--edocbr-red-primary) !important;
+}
+
+/* ============ Responsiveness ============ */
+
+@media (max-width: 768px) {
+    .alfresco-logo::before {
+        font-size: 18px !important;
+    }
+    
+    .alfresco-logo {
+        width: 150px !important;
+        height: 40px !important;
+    }
+}
+
+/* ============ Custom Branding Elements ============ */
+
+/* Adicionar marca d'água sutil e-docBR */
+body::after {
+    content: '';
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 60px;
+    height: 60px;
+    background: url('/share/res/components/images/edocbr-icon.png') no-repeat center;
+    background-size: contain;
+    opacity: 0.1;
+    pointer-events: none;
+    z-index: 0;
+}
+
+/* Animação de loading com cores e-docBR */
+.loading-spinner {
+    border: 4px solid rgba(27, 79, 140, 0.1) !important;
+    border-top: 4px solid var(--edocbr-red-primary) !important;
+}
+
+/* ============ Print Styles ============ */
+
+@media print {
+    .alfresco-header-Header,
+    .sticky-footer,
+    .navigation-panel {
+        display: none !important;
+    }
+    
+    body::before {
+        content: 'e-docBR - Gestão Eletrônica de Documentos' !important;
+        display: block !important;
+        text-align: center !important;
+        padding: 10px !important;
+        color: var(--edocbr-blue-primary) !important;
+        font-weight: 700 !important;
+        border-bottom: 2px solid var(--edocbr-red-primary) !important;
+    }
+}
+
+/* ============ Accessibility Improvements ============ */
+
+:focus {
+    outline: 3px solid var(--edocbr-blue-primary) !important;
+    outline-offset: 2px !important;
+}
+
+/* High contrast mode support */
+@media (prefers-contrast: high) {
+    :root {
+        --edocbr-blue-primary: #0A2647;
+        --edocbr-red-primary: #E30613;
+    }
+}
+
+/* Dark mode support (futuro) */
+@media (prefers-color-scheme: dark) {
+    /* Preparação para dark mode */
+    body {
+        --edocbr-light-bg: #2C3E50;
+    }
+}
